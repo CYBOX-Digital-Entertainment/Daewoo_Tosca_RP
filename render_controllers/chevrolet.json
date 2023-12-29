@@ -1,0 +1,17 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.chevrolet": {
+			"textures": [
+				"Texture.chevrolet"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.chevrolet"
+		}
+	}
+}

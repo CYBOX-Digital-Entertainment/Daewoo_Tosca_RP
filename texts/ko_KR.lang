@@ -1,0 +1,6 @@
+﻿pack.name=GM대우 토스카 : 리소스팩
+pack.description=Add-on by CYBOX with 우리들의 마인크래프트 공간
+
+item.spawn_egg.entity.daewoo:tosca_gb.name=GM대우 토스카 (그라나다 블랙) 생성
+action.hint.exit.daewoo:tosca_gb='SpeedUp!' 버튼 터치 또는 마우스 우클릭으로 속도 번경
+entity.daewoo:tosca_gb.name=GM대우 토스카 (그라나다 블랙)

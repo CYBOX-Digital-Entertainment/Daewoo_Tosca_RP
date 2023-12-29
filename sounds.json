@@ -1,0 +1,17 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"daewoo:tosca": {
+							"volume": 3,
+							"pitch": [
+							1,
+							1
+							],
+						"events": {
+				"spawn": "car.ride",
+				"step": "car.drive"
+							}
+			}
+      }
+   }
+}

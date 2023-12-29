@@ -1,0 +1,29 @@
+{
+    "car.spawn": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_spawn",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	"car.drive": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_drive",
+                "load_on_low_memory": true
+            }
+        ]
+    },
+	    "car.ride": {
+        "category": "music",
+        "sounds": [
+            {
+                "name": "sounds/music/car_ride",
+                "load_on_low_memory": true
+            }
+        ]
+    }
+}

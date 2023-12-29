@@ -1,0 +1,71 @@
+//bridge-file-version: #130
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "daewoo:tosca_gb",
+			"materials": {
+				"default": "entity_emissive_alpha",
+				"tosca_windows": "entity_alphablend",
+				"layer1": "entity_alphatest",
+				"layer2": "entity_alphatest",
+				"layer3": "entity_alphatest",
+				"layer4": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/tosca/tosca_gb",
+				"tosca_windows": "textures/entity/tosca/tosca_gb",
+				"layer1": "textures/entity/tosca/tosca_gb",
+				"layer2": "textures/entity/tosca/tosca_gb",
+				"layer3": "textures/entity/tosca/tosca_gb",
+				"layer4": "textures/entity/tosca/tosca_gb"
+			},
+			"geometry": {
+				"default": "geometry.tosca",
+				"tosca_windows": "geometry.tosca_windows",
+				"layer1": "geometry.tosca_lf_wheel",
+				"layer2": "geometry.tosca_rf_wheel",
+				"layer3": "geometry.tosca_lb_wheel",
+				"layer4": "geometry.tosca_rb_wheel"
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.tosca_windows",
+				"controller.render.layer1",
+				"controller.render.layer2",
+				"controller.render.layer3",
+				"controller.render.layer4"
+				
+			],
+			"spawn_egg": {
+				"texture": "tosca_gb"
+			},
+			"animations": {
+				"setup": "animation.lich_king.summon",
+				"normal": "animation.lich_king.idle"
+				"move": "animation.lich_king.walk",
+				"attack_basic": "animation.lich_king.attack_basic",
+				"hit": "animation.lich_king.hit",
+				"death": "animation.lich_king.death"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					"normal",
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"attack_basic": "query.is_delayed_attacking == 1"
+					},
+					{
+						"hit": "query.query.hurt_time == 1"
+					},
+					{
+						"death": "query.is_alive == 0"
+					}
+				]
+			}
+		}
+	}
+}
