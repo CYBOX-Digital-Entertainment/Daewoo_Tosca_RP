@@ -1,4 +1,3 @@
-//bridge-file-version: #130
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -42,7 +41,7 @@
 			},
 			"animations": {
 				"setup": "animation.lich_king.summon",
-				"normal": "animation.lich_king.idle"
+				"normal": "animation.lich_king.idle",
 				"move": "animation.lich_king.walk",
 				"attack_basic": "animation.lich_king.attack_basic",
 				"hit": "animation.lich_king.hit",
