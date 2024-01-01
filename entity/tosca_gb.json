@@ -59,7 +59,7 @@
 						"attack_basic": "query.is_delayed_attacking == 1"
 					},
 					{
-						"hit": "query.query.hurt_time == 1"
+						"hit": "query.hurt_time == 1"
 					},
 					{
 						"death": "query.is_alive == 0"
