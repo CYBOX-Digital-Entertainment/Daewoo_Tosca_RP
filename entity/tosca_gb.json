@@ -40,29 +40,55 @@
 				"texture": "tosca_gb"
 			},
 			"animations": {
-				"setup": "animation.lich_king.summon",
-				"normal": "animation.lich_king.idle",
-				"move": "animation.lich_king.walk",
-				"attack_basic": "animation.lich_king.attack_basic",
-				"hit": "animation.lich_king.hit",
-				"death": "animation.lich_king.death"
+				"move": "animation.tosca.move",
+				"pedal": "animation.tosca.pedal",
+				"turn": "animation.tosca.turn",
+				"setup": "animation.tosca.spawn",
+				"speed0": "animation.tosca.speed0",
+				"speed1": "animation.tosca.speed1",
+				"speed2": "animation.tosca.speed2",
+				"speed3": "animation.tosca.speed3",
+				"speed4": "animation.tosca.speed4",
+				"light_on": "animation.tosca.light_on",
+				"light_off": "animation.tosca.light_off",
+				"key": "animation.tosca.key"
 			},
 			"scripts": {
 				"animate": [
-					"setup",
-					"normal",
 					{
 						"move": "query.modified_move_speed"
 					},
 					{
-						"attack_basic": "query.is_delayed_attacking == 1"
+						"pedal": "query.modified_move_speed"
 					},
 					{
-						"hit": "query.hurt_time == 1"
+						"turn": "query.modified_move_speed"
 					},
 					{
-						"death": "query.is_alive == 0"
-					}
+						"speed0": "query.skin_id == 0 && query.is_moving == 1"
+					},
+					{
+						"speed1": "query.skin_id == 1 && query.is_moving == 1"
+					},
+					{
+						"speed2": "query.skin_id == 2 && query.is_moving == 1"
+					},
+					{
+						"speed3": "query.skin_id == 3 && query.is_moving == 1"
+					},
+					{
+						"speed4": "query.skin_id == 4 && query.is_moving == 1"
+					},
+					{
+						"light_on": "query.has_rider == 1"
+					},
+					{
+						"key": "query.has_rider == 1"
+					},
+					{
+						"light_off": "query.has_rider == 0"
+					},
+					"setup"
 				]
 			}
 		}
