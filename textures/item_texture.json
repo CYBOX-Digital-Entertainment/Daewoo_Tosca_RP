@@ -1,12 +1,8 @@
 //bridge-file-version: #3
 {
-	"resource_pack_name": "vanilla",
-	"texture_name": "atlas.items",
 	"texture_data": {
-		"tosca_gb": {
-			"textures": [
-				"textures/items/tosca_gb"
-			]
-		}
+		"tosca_gb":{"textures":"textures/items/tosca_gb.png"},
+		"dw_tosca_key":{"textures":"textures/items/dw_tosca_key.png"},
+		"dw_tosca_horn":{"textures":"textures/items/dw_tosca_horn.png"}
 	}
 }
