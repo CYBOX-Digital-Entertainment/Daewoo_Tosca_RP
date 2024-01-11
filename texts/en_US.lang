@@ -1,6 +1,5 @@
 ﻿pack.name=Daewoo Tosca : RP
 pack.description=Add-on by CYBOX with Our Minectaft Space
 
-item.spawn_egg.entity.daewoo:tosca_gb.name=Spawn Daewoo Tosca (Granada Black)
-action.hint.exit.daewoo:tosca_gb=Touch the 'SpeedUp!' button or Right-click to Speed up
-entity.daewoo:tosca_gb.name=Daewoo Tosca (Granada Black)
+item.spawn_egg.entity.cybox:dw_tosca.name=Spawn Daewoo Tosca
+entity.cybox:dw_tosca.name=Daewoo Tosca

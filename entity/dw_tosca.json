@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "daewoo:tosca_gb",
+			"identifier": "cybox:dw_tosca",
 			"materials": {
 				"default": "entity_emissive_alpha",
 				"tosca_windows": "entity_alphablend",
@@ -41,17 +41,8 @@
 			},
 			"animations": {
 				"move": "animation.tosca.move",
-				"pedal": "animation.tosca.pedal",
 				"turn": "animation.tosca.turn",
-				"setup": "animation.tosca.spawn",
-				"speed0": "animation.tosca.speed0",
-				"speed1": "animation.tosca.speed1",
-				"speed2": "animation.tosca.speed2",
-				"speed3": "animation.tosca.speed3",
-				"speed4": "animation.tosca.speed4",
-				"light_on": "animation.tosca.light_on",
-				"light_off": "animation.tosca.light_off",
-				"key": "animation.tosca.key"
+				"setup": "animation.tosca.spawn"
 			},
 			"scripts": {
 				"animate": [
@@ -59,34 +50,7 @@
 						"move": "query.modified_move_speed"
 					},
 					{
-						"pedal": "query.modified_move_speed"
-					},
-					{
 						"turn": "query.modified_move_speed"
-					},
-					{
-						"speed0": "query.skin_id == 0 && query.is_moving == 1"
-					},
-					{
-						"speed1": "query.skin_id == 1 && query.is_moving == 1"
-					},
-					{
-						"speed2": "query.skin_id == 2 && query.is_moving == 1"
-					},
-					{
-						"speed3": "query.skin_id == 3 && query.is_moving == 1"
-					},
-					{
-						"speed4": "query.skin_id == 4 && query.is_moving == 1"
-					},
-					{
-						"light_on": "query.has_rider == 1"
-					},
-					{
-						"key": "query.has_rider == 1"
-					},
-					{
-						"light_off": "query.has_rider == 0"
 					},
 					"setup"
 				]
