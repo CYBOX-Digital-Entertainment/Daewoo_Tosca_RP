@@ -13,6 +13,15 @@
 			},
 			"textures": {
 				"default": "textures/entity/tosca/tosca_gb",
+				"ddg": "textures/entity/tosca/tosca_ddg",
+				"gb": "textures/entity/tosca/tosca_gb",
+				"gw": "textures/entity/tosca/tosca_gw",
+				"kr": "textures/entity/tosca/tosca_kr",
+				"pb": "textures/entity/tosca/tosca_pb",
+				"ps": "textures/entity/tosca/tosca_ps",
+				"sdg": "textures/entity/tosca/tosca_sdg",
+				"sdg": "textures/entity/tosca/tosca_wp",
+				"police": "textures/entity/tosca/tosca_police",
 				"tosca_windows": "textures/entity/tosca/tosca_gb",
 				"layer1": "textures/entity/tosca/tosca_gb",
 				"layer2": "textures/entity/tosca/tosca_gb",
@@ -21,6 +30,7 @@
 			},
 			"geometry": {
 				"default": "geometry.tosca",
+				"police": "geometry.tosca_police",
 				"tosca_windows": "geometry.tosca_windows",
 				"layer1": "geometry.tosca_lf_wheel",
 				"layer2": "geometry.tosca_rf_wheel",
@@ -29,6 +39,7 @@
 			},
 			"render_controllers": [
 				"controller.render.default",
+				"controller.render.police",
 				"controller.render.tosca_windows",
 				"controller.render.layer1",
 				"controller.render.layer2",
