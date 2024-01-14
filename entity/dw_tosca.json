@@ -65,19 +65,19 @@
 			"scripts": {
 				"animate": [
 					{
-						"speed0": "query.variant == 0 && query.is_moving == 1"
+						"speed0": "query.mark_variant == 0 && query.is_moving == 1"
 					},
 					{
-						"speed1": "query.variant == 1 && query.is_moving == 1"
+						"speed1": "query.mark_variant == 1 && query.is_moving == 1"
 					},
 					{
-						"speed2": "query.variant == 2 && query.is_moving == 1"
+						"speed2": "query.mark_variant == 2 && query.is_moving == 1"
 					},
 					{
-						"speed3": "query.variant == 3 && query.is_moving == 1"
+						"speed3": "query.mark_variant == 3 && query.is_moving == 1"
 					},
 					{
-						"speed4": "query.variant == 4 && query.is_moving == 1"
+						"speed4": "query.mark_variant == 4 && query.is_moving == 1"
 					},
 					{
 						"move": "query.modified_move_speed"
