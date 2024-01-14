@@ -53,15 +53,40 @@
 			},
 			"animations": {
 				"move": "animation.tosca.move",
+				"pedal": "animation.tosca.pedal",
 				"turn": "animation.tosca.turn",
-				"setup": "animation.tosca.spawn"
+				"setup": "animation.tosca.spawn",
+				"speed0": "animation.tosca.speed0",
+				"speed1": "animation.tosca.speed1",
+				"speed2": "animation.tosca.speed2",
+				"speed3": "animation.tosca.speed3",
+				"speed4": "animation.tosca.speed4"
 			},
 			"scripts": {
 				"animate": [
 					{
+						"speed0": "query.variant == 0 && query.is_moving == 1"
+					},
+					{
+						"speed1": "query.variant == 1 && query.is_moving == 1"
+					},
+					{
+						"speed2": "query.variant == 2 && query.is_moving == 1"
+					},
+					{
+						"speed3": "query.variant == 3 && query.is_moving == 1"
+					},
+					{
+						"speed4": "query.variant == 4 && query.is_moving == 1"
+					},
+					{
 						"move": "query.modified_move_speed"
 					},
 					{
+						"pedal": "query.modified_move_speed"
+					},
+					{
+						
 						"turn": "query.modified_move_speed"
 					},
 					"setup"

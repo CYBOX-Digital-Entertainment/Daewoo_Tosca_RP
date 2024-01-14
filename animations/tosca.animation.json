@@ -917,11 +917,61 @@
 						"1.1167": [0, 65, 0]
 					}
 				},
-				"gps_on": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
+				"left_light_off": {
 					"position": [0, 0, 1]
 				},
-				"gps_off": {
+				"left_light_on": {
 					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_r_sg": {
+					"position": [0, 0, -2]
+				},
+				"light_off_back_l_sg2": {
+					"position": [0, -1, -2]
+				},
+				"light_on_back_r_sg": {
+					"position": [0, 0, -1]
+				},
+				"light_on_back_l_sg": {
+					"position": [0, -0.75, 0]
 				}
 			}
 		},
@@ -958,12 +1008,6 @@
 						"1.1": [0, 0.33178, 0],
 						"1.1167": [0, 0, 0]
 					}
-				},
-				"gps_on": {
-					"position": [0, 0, 0]
-				},
-				"gps_off": {
-					"position": [0, 0, 0]
 				}
 			}
 		},
@@ -971,6 +1015,62 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
 			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
+				"left_light_off": {
+					"position": [0, 0, 1]
+				},
+				"left_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_r_sg": {
+					"position": [0, 0, -2]
+				},
+				"light_off_back_l_sg2": {
+					"position": [0, -1, -2]
+				},
+				"light_on_back_r_sg": {
+					"position": [0, 0, -1]
+				},
+				"light_on_back_l_sg": {
+					"position": [0, -0.75, 0]
+				},
 				"main_window": {
 					"rotation": {
 						"0.0": [0, 0, 0],
@@ -980,9 +1080,6 @@
 						"0.0": [0, 0, 0],
 						"1.0": [-1, -5.875, -0.875]
 					}
-				},
-				"gps_select2": {
-					"position": [0, 0, 1]
 				}
 			}
 		},
@@ -1000,8 +1097,61 @@
 						"1.0": [0, 0, 0]
 					}
 				},
-				"gps_select2": {
-					"position": [-0.625, 0, 1]
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
+				"left_light_off": {
+					"position": [0, 0, 1]
+				},
+				"left_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_r_sg": {
+					"position": [0, 0, -2]
+				},
+				"light_off_back_l_sg2": {
+					"position": [0, -1, -2]
+				},
+				"light_on_back_r_sg": {
+					"position": [0, 0, -1]
+				},
+				"light_on_back_l_sg": {
+					"position": [0, -0.75, 0]
 				}
 			}
 		},
@@ -1293,6 +1443,28 @@
 			"loop": true,
 			"animation_length": 1.11667,
 			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
 				"left_light_off": {
 					"position": [0, 0, 1]
 				},
@@ -1326,9 +1498,6 @@
 				},
 				"light_on_back_l_sg": {
 					"position": [0, -0.75, 0]
-				},
-				"gps_select": {
-					"position": [-0.625, 0, 0]
 				}
 			}
 		},
@@ -1336,8 +1505,55 @@
 			"loop": true,
 			"animation_length": 1.12,
 			"bones": {
-				"gps_select": {
-					"position": [0, 0, 0]
+				"left_mirror": {
+					"rotation": {
+						"0.0": [0, -65, 0],
+						"0.0167": [0, -64.66928, 0],
+						"0.0333": [0, -64.05209, 0],
+						"0.25": [0, -51.96816, 0],
+						"0.4667": [0, -38.3559, 0],
+						"0.6833": [0, -24.52395, 0],
+						"0.9": [0, -11.00486, 0],
+						"1.0333": [0, -3.3512, 0],
+						"1.0833": [0, -0.9493, 0],
+						"1.1": [0, -0.33178, 0],
+						"1.1167": [0, 0, 0]
+					}
+				},
+				"right_mirror": {
+					"rotation": {
+						"0.0": [0, 65, 0],
+						"0.0167": [0, 64.66928, 0],
+						"0.0333": [0, 64.05209, 0],
+						"0.25": [0, 51.96816, 0],
+						"0.4667": [0, 38.3559, 0],
+						"0.6833": [0, 24.52395, 0],
+						"0.9": [0, 11.00486, 0],
+						"1.0333": [0, 3.3512, 0],
+						"1.0833": [0, 0.9493, 0],
+						"1.1": [0, 0.33178, 0],
+						"1.1167": [0, 0, 0]
+					}
+				},
+				"right_front_door": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 50, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [0, 42.73, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.3167": {
+							"post": [0, 26.92, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4333": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
 				}
 			}
 		},
@@ -1345,6 +1561,56 @@
 			"loop": true,
 			"animation_length": 0.6,
 			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
+				"left_light_off": {
+					"position": [0, 0, 1]
+				},
+				"left_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_r_sg": {
+					"position": [0, 0, -2]
+				},
+				"light_on_back_r_sg": {
+					"position": [0, 0, -1]
+				},
 				"left_sg_light_on": {
 					"position": {
 						"0.0": [-0.00395, 0.00436, 0.00049],
@@ -1398,9 +1664,6 @@
 						"0.5833": [0, 0, 0],
 						"0.6": [0, 0, 1]
 					}
-				},
-				"gps_select3": {
-					"position": [0, 0, 1]
 				}
 			}
 		},
@@ -1408,6 +1671,56 @@
 			"loop": true,
 			"animation_length": 0.6,
 			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
+				"left_light_off": {
+					"position": [0, 0, 1]
+				},
+				"left_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_l_sg2": {
+					"position": [0, -1, -2]
+				},
+				"light_on_back_l_sg": {
+					"position": [0, -0.75, 0]
+				},
 				"light_off_back_r_sg": {
 					"position": {
 						"0.0": [0, -0.75, 1],
@@ -1468,9 +1781,6 @@
 						"0.5833": [0, 0, 0],
 						"0.6": [0, 0, 1]
 					}
-				},
-				"gps_select3": {
-					"position": [-0.625, 0, 1]
 				}
 			}
 		}
