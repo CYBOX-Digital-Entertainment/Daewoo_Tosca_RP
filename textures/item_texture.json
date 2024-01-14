@@ -3,6 +3,16 @@
 	"texture_data": {
 		"tosca_gb":{"textures":"textures/items/tosca_gb.png"},
 		"dw_tosca_key":{"textures":"textures/items/dw_tosca_key.png"},
-		"dw_tosca_horn":{"textures":"textures/items/dw_tosca_horn.png"}
+		"dw_tosca_horn":{"textures":"textures/items/dw_tosca_horn.png"},
+		"tosca_paint_ddg":{"textures":"textures/items/tosca_paint_ddg.png"},
+		"tosca_paint_gb":{"textures":"textures/items/tosca_paint_gb.png"},
+		"tosca_paint_gw":{"textures":"textures/items/tosca_paint_gw.png"},
+		"tosca_paint_kr":{"textures":"textures/items/tosca_paint_kr.png"},
+		"tosca_paint_og":{"textures":"textures/items/tosca_paint_og.png"},
+		"tosca_paint_pb":{"textures":"textures/items/tosca_paint_pb.png"},
+		"tosca_paint_ps":{"textures":"textures/items/tosca_paint_ps.png"},
+		"tosca_paint_sdg":{"textures":"textures/items/tosca_paint_sdg.png"},
+		"tosca_paint_wp":{"textures":"textures/items/tosca_paint_wp.png"}
+		
 	}
 }
