@@ -1,0 +1,88 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tosca_police_kit.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [66, 60, -60],
+					"position": [3, 23, 4]
+				},
+				"bone": {
+					"position": [-2.11345, -2.56093, 5.02245]
+				},
+				"police_tool": {
+					"rotation": [22.5, 45, -90],
+					"position": [-3.88487, -4.89696, 11.39858]
+				}
+			}
+		},
+		"animation.tosca_police_kit.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 0, 0],
+					"position": [0.5, 22.5, -0.5]
+				}
+			}
+		},
+		"animation.tosca_police_kit.normal": {
+			"loop": true,
+			"animation_length": 0.2,
+			"bones": {
+				"left_light_po_off": {
+					"scale": {
+						"0.0": [0.9, 0.9, 0.9],
+						"0.09": [0.9, 0.9, 0.9],
+						"0.1": [1, 1, 1],
+						"0.2": [1, 1, 1]
+					}
+				},
+				"left_light_po_on": {
+					"position": {
+						"0.0": [0.075, 0, 0],
+						"0.333": [0.075, 0, 0]
+					},
+					"scale": {
+						"0.0": [1.1, 1.1, 1.1],
+						"0.09": [1.1, 1.1, 1.1],
+						"0.1": [1, 1, 1],
+						"0.2": [1, 1, 1]
+					}
+				},
+				"right_light_po_off": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.09": [1, 1, 1],
+						"0.1": [0.9, 0.9, 0.9],
+						"0.2": [0.9, 0.9, 0.9]
+					}
+				},
+				"right_light_po_on": {
+					"position": {
+						"0.0": [-0.075, 0, 0],
+						"0.09": [-0.075, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.9, 0.9, 0.9],
+						"0.09": [0.9, 0.9, 0.9],
+						"0.1": [1.1, 1.1, 1.1],
+						"0.2": [1.1, 1.1, 1.1]
+					}
+				},
+				"CC_on": {
+					"position": [0, 0, -1]
+				},
+				"CC_on_high": {
+					"position": [0, -0.25, 1]
+				},
+				"CC_on2": {
+					"position": [0, 0, -1]
+				},
+				"CC_on_high2": {
+					"position": [0, -0.25, 1]
+				}
+			}
+		}
+	}
+}

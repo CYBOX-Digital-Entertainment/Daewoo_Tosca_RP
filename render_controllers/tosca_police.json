@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.tosca_police": {
+			"part_visibility": [
+				{ "*": "query.variant == 10" }
+			],
+			"arrays": {
+        "textures": {
+          "Array.variants": [
+			"Texture.undyed",
+            "Texture.ddg",
+            "Texture.gb",
+            "Texture.gw",
+            "Texture.kr",
+            "Texture.og",
+            "Texture.pb",
+            "Texture.ps",
+            "Texture.sdg",
+            "Texture.wp",
+            "Texture.tosca_police"
+          ]
+        }
+      },
+			"geometry": "Geometry.tosca_police",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.variants[query.variant]" ]
+    }
+  }
+}

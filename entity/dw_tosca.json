@@ -5,7 +5,7 @@
 			"identifier": "cybox:dw_tosca",
 			"materials": {
 				"default": "entity_emissive_alpha",
-				//"police": "entity_alphatest",
+				"tosca_police": "entity_emissive_alpha",
 				"tosca_windows": "entity_alphablend",
 				"layer1": "entity_alphatest",
 				"layer2": "entity_alphatest",
@@ -13,16 +13,17 @@
 				"layer4": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/tosca/tosca_gb",
+				"undyed": "textures/entity/tosca/tosca_gb",
 				"ddg": "textures/entity/tosca/tosca_ddg",
 				"gb": "textures/entity/tosca/tosca_gb",
 				"gw": "textures/entity/tosca/tosca_gw",
 				"kr": "textures/entity/tosca/tosca_kr",
+				"og": "textures/entity/tosca/tosca_og",
 				"pb": "textures/entity/tosca/tosca_pb",
 				"ps": "textures/entity/tosca/tosca_ps",
 				"sdg": "textures/entity/tosca/tosca_sdg",
-				"sdg": "textures/entity/tosca/tosca_wp",
-				//"police": "textures/entity/tosca/tosca_police",
+				"wp": "textures/entity/tosca/tosca_wp",
+				"tosca_police": "textures/entity/tosca/tosca_police",
 				"tosca_windows": "textures/entity/tosca/tosca_gb",
 				"layer1": "textures/entity/tosca/tosca_gb",
 				"layer2": "textures/entity/tosca/tosca_gb",
@@ -31,7 +32,7 @@
 			},
 			"geometry": {
 				"default": "geometry.tosca",
-				//"police": "geometry.tosca_police",
+				"tosca_police": "geometry.tosca_police",
 				"tosca_windows": "geometry.tosca_windows",
 				"layer1": "geometry.tosca_lf_wheel",
 				"layer2": "geometry.tosca_rf_wheel",
@@ -39,8 +40,8 @@
 				"layer4": "geometry.tosca_rb_wheel"
 			},
 			"render_controllers": [
-				"controller.render.default",
-				//"controller.render.police",
+				"controller.render.tosca",
+				"controller.render.tosca_police",
 				"controller.render.tosca_windows",
 				"controller.render.layer1",
 				"controller.render.layer2",
@@ -53,6 +54,7 @@
 			},
 			"animations": {
 				"move": "animation.tosca.move",
+				"normal": "animation.tosca_police.normal",
 				"pedal": "animation.tosca.pedal",
 				"turn": "animation.tosca.turn",
 				"setup": "animation.tosca.spawn",
@@ -89,7 +91,8 @@
 						
 						"turn": "query.modified_move_speed"
 					},
-					"setup"
+					"setup",
+					"normal"
 				]
 			}
 		}

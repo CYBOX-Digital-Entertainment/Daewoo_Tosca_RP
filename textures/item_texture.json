@@ -4,6 +4,7 @@
 		"tosca_gb":{"textures":"textures/items/tosca_gb.png"},
 		"dw_tosca_key":{"textures":"textures/items/dw_tosca_key.png"},
 		"dw_tosca_horn":{"textures":"textures/items/dw_tosca_horn.png"},
+		"dw_tosca_core":{"textures":"textures/items/dw_tosca_horn.png"},
 		"tosca_paint_ddg":{"textures":"textures/items/tosca_paint_ddg.png"},
 		"tosca_paint_gb":{"textures":"textures/items/tosca_paint_gb.png"},
 		"tosca_paint_gw":{"textures":"textures/items/tosca_paint_gw.png"},
@@ -12,7 +13,12 @@
 		"tosca_paint_pb":{"textures":"textures/items/tosca_paint_pb.png"},
 		"tosca_paint_ps":{"textures":"textures/items/tosca_paint_ps.png"},
 		"tosca_paint_sdg":{"textures":"textures/items/tosca_paint_sdg.png"},
-		"tosca_paint_wp":{"textures":"textures/items/tosca_paint_wp.png"}
-		
+		"tosca_paint_wp":{"textures":"textures/items/tosca_paint_wp.png"},
+		"tosca_police_kit":{"textures":"textures/items/tosca_police_kit.png"},
+		"cybox_t":{"textures":"textures/items/cybox_t.png"},
+		"cybox_o":{"textures":"textures/items/cybox_o.png"},
+		"cybox_s":{"textures":"textures/items/cybox_s.png"},
+		"cybox_c":{"textures":"textures/items/cybox_c.png"},
+		"cybox_a":{"textures":"textures/items/cybox_a.png"}
 	}
 }
