@@ -96,34 +96,34 @@
 						"back_mirror_open": "query.skin_id == 1 && query.is_riding == 1"
 					},
 					{
-						"light_on": "query.skin_id == 3 && query.is_riding == 1"
+						"light_on": "query.skin_id == 3 "
 					},
 					{
-						"light_off": "query.skin_id == 4 && query.is_riding == 1"
+						"light_off": "query.skin_id == 4"
 					},
 					{
-						"left_signal": "query.skin_id == 5 && query.is_riding == 1"
+						"left_signal": "query.skin_id == 5"
 					},
 					{
-						"right_signal": "query.skin_id == 6 && query.is_riding == 1"
+						"right_signal": "query.skin_id == 6"
 					},
 					{
-						"roll_up": "query.skin_id == 9 && query.is_riding == 1"
+						"roll_up": "query.skin_id == 9"
 					},
 					{
-						"roll_down": "query.skin_id == 10 && query.is_riding == 1"
+						"roll_down": "query.skin_id == 10"
 					},
 					{
-						"bonnet_open": "query.skin_id == 17 && query.is_riding == 1"
+						"bonnet_open": "query.skin_id == 17"
 					},
 					{
-						"bonnet_close": "query.skin_id == 18 && query.is_riding == 1"
+						"bonnet_close": "query.skin_id == 18"
 					},
 					{
-						"roll_up2": "query.skin_id == 9 && query.is_riding == 1"
+						"roll_up2": "query.skin_id == 21"
 					},
 					{
-						"roll_down2": "query.skin_id == 10 && query.is_riding == 1"
+						"roll_down2": "query.skin_id == 22"
 					},
 					{
 						"move": "query.modified_move_speed"
