@@ -66,6 +66,7 @@
 				"back_mirror_open": "animation.tosca.speed0",
 				"light_on": "animation.tosca.light_on",
 				"light_off": "animation.tosca.normal",
+				"ride_end": "animation.tosca.light_off",
 				"left_signal": "animation.tosca..light_on_left_signal",
 				"right_signal": "animation.tosca.light_on_right_signal",
 				"roll_up": "animation.tosca.main_windows_open",
