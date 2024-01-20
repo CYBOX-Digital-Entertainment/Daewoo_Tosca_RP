@@ -1,9 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.tosca.normal": {
-			"loop": true
-		},
 		"animation.tosca.spawn": {
 			"animation_length": 0.83333,
 			"bones": {
@@ -858,6 +855,9 @@
 				}
 			}
 		},
+		"animation.tosca.normal": {
+			"loop": true
+		},
 		"animation.tosca.key": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.0167,
@@ -1086,6 +1086,44 @@
 				}
 			}
 		},
+		"animation.tosca.main_windows_open2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
+				},
+				"main_window": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 15]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [-1, -5.875, -0.875]
+					}
+				}
+			}
+		},
 		"animation.tosca.main_windows_close": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
@@ -1155,6 +1193,44 @@
 				},
 				"light_on_back_l_sg": {
 					"position": [0, -0.75, 0]
+				}
+			}
+		},
+		"animation.tosca.main_windows_close2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"main_window": {
+					"rotation": {
+						"0.0": [0, 0, 15],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-1, -5.875, -0.875],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"key_off": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, -1]
+					}
+				},
+				"key_on": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0, 0, 1]
+					}
 				}
 			}
 		},
@@ -1443,7 +1519,7 @@
 			}
 		},
 		"animation.tosca.light_on": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"animation_length": 1.11667,
 			"bones": {
 				"key": {
@@ -1505,7 +1581,7 @@
 			}
 		},
 		"animation.tosca.light_off": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"animation_length": 1.12,
 			"bones": {
 				"left_mirror": {

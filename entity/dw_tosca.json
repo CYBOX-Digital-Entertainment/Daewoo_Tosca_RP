@@ -66,10 +66,12 @@
 				"back_mirror_open": "animation.tosca.speed0",
 				"light_on": "animation.tosca.light_on",
 				"light_off": "animation.tosca.light_off",
-				"left_signal": "animation.tosca.left_signal",
-				"right_signal": "animation.tosca.right_signal",
+				"left_signal": "animation.tosca..light_on_left_signal",
+				"right_signal": "animation.tosca.light_on_right_signal",
 				"roll_up": "animation.tosca.main_windows_open",
 				"roll_down": "animation.tosca.main_windows_close",
+				"roll_up2": "animation.tosca.main_windows_open2",
+				"roll_down2": "animation.tosca.main_windows_close2",
 				"bonnet_open": "animation.tosca.bonnet_open",
 				"bonnet_close": "animation.tosca.bonnet_close"
 			},
@@ -118,13 +120,18 @@
 						"bonnet_close": "query.skin_id == 18 && query.is_riding == 1"
 					},
 					{
+						"roll_up2": "query.skin_id == 9 && query.is_riding == 1"
+					},
+					{
+						"roll_down2": "query.skin_id == 10 && query.is_riding == 1"
+					},
+					{
 						"move": "query.modified_move_speed"
 					},
 					{
 						"pedal": "query.modified_move_speed"
 					},
-					{
-						
+					{	
 						"turn": "query.modified_move_speed"
 					},
 					"setup",
