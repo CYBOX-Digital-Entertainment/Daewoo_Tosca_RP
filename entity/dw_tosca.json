@@ -62,7 +62,16 @@
 				"speed1": "animation.tosca.speed1",
 				"speed2": "animation.tosca.speed2",
 				"speed3": "animation.tosca.speed3",
-				"speed4": "animation.tosca.speed4"
+				"speed4": "animation.tosca.speed4",
+				"back_mirror_open": "animation.tosca.speed0",
+				"light_on": "animation.tosca.light_on",
+				"light_off": "animation.tosca.light_off",
+				"left_signal": "animation.tosca.left_signal",
+				"right_signal": "animation.tosca.right_signal",
+				"roll_up": "animation.tosca.main_windows_open",
+				"roll_down": "animation.tosca.main_windows_close",
+				"bonnet_open": "animation.tosca.bonnet_open",
+				"bonnet_close": "animation.tosca.bonnet_close"
 			},
 			"scripts": {
 				"animate": [
@@ -80,6 +89,33 @@
 					},
 					{
 						"speed4": "query.mark_variant == 4 && query.is_moving == 1"
+					},
+					{
+						"back_mirror_open": "query.skin_id == 1 && query.is_riding == 1"
+					},
+					{
+						"light_on": "query.skin_id == 3 && query.is_riding == 1"
+					},
+					{
+						"light_off": "query.skin_id == 4 && query.is_riding == 1"
+					},
+					{
+						"left_signal": "query.skin_id == 5 && query.is_riding == 1"
+					},
+					{
+						"right_signal": "query.skin_id == 6 && query.is_riding == 1"
+					},
+					{
+						"roll_up": "query.skin_id == 9 && query.is_riding == 1"
+					},
+					{
+						"roll_down": "query.skin_id == 10 && query.is_riding == 1"
+					},
+					{
+						"bonnet_open": "query.skin_id == 17 && query.is_riding == 1"
+					},
+					{
+						"bonnet_close": "query.skin_id == 18 && query.is_riding == 1"
 					},
 					{
 						"move": "query.modified_move_speed"
