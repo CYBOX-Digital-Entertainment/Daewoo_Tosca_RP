@@ -63,7 +63,6 @@
 				"speed2": "animation.tosca.speed2",
 				"speed3": "animation.tosca.speed3",
 				"speed4": "animation.tosca.speed4",
-				"back_mirror_open": "animation.tosca.back_mirror_open",
 				"car_on": "animation.tosca.back_mirror_open",
 				"car_off": "animation.tosca.back_mirror_close",
 				"light_on": "animation.tosca.light_on",
@@ -78,10 +77,20 @@
 				"roll_down2": "animation.tosca.main_windows_close2",
 				"bonnet_open": "animation.tosca.bonnet_open",
 				"bonnet_close": "animation.tosca.bonnet_close",
-				"siren": "animation.tosca_police.siren"
+				"siren": "animation.tosca_police.siren",
+				"tosca_controller": "controller.animation.tosca"
 			},
 			"scripts": {
 				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"pedal": "query.modified_move_speed"
+					},
+					{	
+						"turn": "query.modified_move_speed"
+					},
 					{
 						"speed0": "query.mark_variant == 0 && query.is_moving == 1"
 					},
@@ -97,62 +106,9 @@
 					{
 						"speed4": "query.mark_variant == 4 && query.is_moving == 1"
 					},
-					{
-						"car_on": "query.skin_id == 1"
-					},
-					{
-						"car_off": "query.skin_id == 2"
-					},
-					{
-						"light_on": "query.skin_id == 3"
-					},
-					{
-						"light_off": "query.skin_id == 4"
-					},
-					{
-						"left_signal": "query.skin_id == 5"
-					},
-					{
-						"right_signal": "query.skin_id == 6"
-					},
-					{
-						"right_front_door_open": "query.skin_id == 7"
-					},
-					{
-						"right_front_door_close": "query.skin_id == 8"
-					},
-					{
-						"roll_up": "query.skin_id == 9"
-					},
-					{
-						"roll_down": "query.skin_id == 10"
-					},
-					{
-						"bonnet_open": "query.skin_id == 17"
-					},
-					{
-						"bonnet_close": "query.skin_id == 18"
-					},
-					{
-						"roll_up2": "query.skin_id == 21"
-					},
-					{
-						"roll_down2": "query.skin_id == 22"
-					},
-					{
-						"siren": "query.skin_id == 23"
-					},
-					{
-						"move": "query.modified_move_speed"
-					},
-					{
-						"pedal": "query.modified_move_speed"
-					},
-					{	
-						"turn": "query.modified_move_speed"
-					},
 					"setup",
-					"normal"
+					"normal",
+					"tosca_controller"
 				]
 			}
 		}
