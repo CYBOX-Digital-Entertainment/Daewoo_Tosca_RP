@@ -1609,7 +1609,6 @@
 			}
 		},
 		"animation.tosca.back_mirror_open": {
-			"loop": "hold_on_last_frame",
 			"animation_length": 1.1167,
 			"bones": {
 				"left_mirror": {
@@ -1661,7 +1660,10 @@
 				"key_on": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.0167": {"pre": [0, 0, 0], "post": [0, 0, 1]}
+						"0.0167": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						}
 					}
 				},
 				"left_light_off": {
@@ -1701,7 +1703,6 @@
 			}
 		},
 		"animation.tosca.back_mirror_close": {
-			"loop": "hold_on_last_frame",
 			"animation_length": 1.12,
 			"bones": {
 				"left_mirror": {

@@ -2,55 +2,24 @@
 	"format_version": "1.10.0",
 	"animation_controllers": {
 		"controller.animation.tosca": {
-			"initial_state": "default",
 			"states": {
 				"default": {
 					"transitions": [
-						{
-							"car_on": "query.skin_id == 1"
-						},
-						{
-							"car_off": "query.skin_id == 2"
-						},
-						{
-							"light_on": "query.skin_id == 3"
-						},
-						{
-							"light_off": "query.skin_id == 4"
-						},
-						{
-							"left_signal": "query.skin_id == 5"
-						},
-						{
-							"right_signal": "query.skin_id == 6"
-						},
-						{
-							"right_front_door_open": "query.skin_id == 7"
-						},
-						{
-							"right_front_door_close": "query.skin_id == 8"
-						},
-						{
-							"roll_up": "query.skin_id == 9"
-						},
-						{
-							"roll_down": "query.skin_id == 10"
-						},
-						{
-							"bonnet_open": "query.skin_id == 17"
-						},
-						{
-							"bonnet_close": "query.skin_id == 18"
-						},
-						{
-							"roll_up2": "query.skin_id == 21"
-						},
-						{
-							"roll_down2": "query.skin_id == 22"
-						},
-						{
-							"siren": "query.skin_id == 23"
-						}
+						{"car_on": "query.skin_id == 1"},
+						{"car_off": "query.skin_id == 2"},
+						{"light_on": "query.skin_id == 3"},
+						{"light_off": "query.skin_id == 4"},
+						{"left_signal": "query.skin_id == 5"},
+						{"right_signal": "query.skin_id == 6"},
+						{"right_front_door_open": "query.skin_id == 7"},
+						{"right_front_door_close": "query.skin_id == 8"},
+						{"roll_up": "query.skin_id == 9"},
+						{"roll_down": "query.skin_id == 10"},
+						{"bonnet_open": "query.skin_id == 17"},
+						{"bonnet_close": "query.skin_id == 18"},
+						{"roll_up2": "query.skin_id == 21"},
+						{"roll_down2": "query.skin_id == 22"},
+						{"siren": "query.skin_id == 23"}
 					]
 				},
 				"car_on": {
@@ -71,6 +40,12 @@
 				"right_signal": {
 					"animations": ["right_signal"]
 				},
+				"right_front_door_open": {
+					"animations": ["right_front_door_open"]
+				},
+				"right_front_door_close": {
+					"animations": ["right_front_door_close"]
+				},
 				"roll_up": {
 					"animations": ["roll_up"]
 				},
@@ -82,12 +57,6 @@
 				},
 				"bonnet_close": {
 					"animations": ["bonnet_close"]
-				},
-				"right_front_door_open": {
-					"animations": ["right_front_door_open"]
-				},
-				"right_front_door_close": {
-					"animations": ["right_front_door_close"]
 				},
 				"roll_up2": {
 					"animations": ["roll_up2"]
