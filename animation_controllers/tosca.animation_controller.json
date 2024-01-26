@@ -4,143 +4,323 @@
 		"controller.animation.tosca": {
 			"states": {
 				"default": {
-					"transitions": [
-						{"car_on": "q.variant == 1"},
-						{"car_off": "q.variant == 2"},
-						{"light_on": "q.variant == 3"},
-						{"light_off": "q.variant == 4"},
-						{"left_signal": "q.variant == 5"},
-						{"right_signal": "q.variant == 6"},
-						{"right_front_door_open": "q.variant == 7"},
-						{"right_front_door_close": "q.variant == 8"},
-						{"roll_up": "q.variant == 9"},
-						{"roll_down": "q.variant == 10"},
-						{"bonnet_open": "q.variant == 17"},
-						{"bonnet_close": "q.variant == 18"},
-						{"roll_up2": "q.variant == 21"},
-						{"roll_down2": "q.variant == 22"},
-						{"siren": "q.variant == 23"}
-					]
-				},
+                    "transitions": [
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+                    "animations": [
+                        "light_off"
+                    ]
+                },
 				"car_on": {
-					"animations": ["car_on"],
-					"transitions": [
-						{
-							"car_on": "!q.variant == 1"
-						}
-					]
-				},
+                    "transitions": [
+                        {"default": "query.skin_id == 0"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+                    "animations": [
+                        "car_on"
+                    ]
+                },
 				"car_off": {
-					"animations": ["car_off"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 2"
-						}
-					]
+                        {"default": "query.skin_id == 0"},
+						{"car_on": "query.variant == 1"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+                    "animations": [
+                        "car_off"
+                    ]
 				},
 				"light_on": {
-					"animations": ["light_on"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 3"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+                    "animations": [
+                        "light_on"
+                    ]
 				},
 				"light_off": {
-					"animations": ["light_off"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 4"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+                    "animations": [
+                        "light_off"
+                    ]
 				},
 				"left_signal": {
-					"animations": ["left_signal"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 5"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+                    "animations": [
+                        "left_signal"
+                    ]
 				},
 				"right_signal": {
-					"animations": ["right_signal"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 6"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["right_signal"]
 				},
 				"right_front_door_open": {
-					"animations": ["right_front_door_open"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 7"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["right_front_door_open"]
 				},
 				"right_front_door_close": {
-					"animations": ["right_front_door_close"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 8"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["right_front_door_close"]
 				},
 				"roll_up": {
-					"animations": ["roll_up"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 9"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["roll_up"]
 				},
 				"roll_down": {
-					"animations": ["roll_down"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 10"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["roll_down"]
 				},
 				"bonnet_open": {
-					"animations": ["bonnet_open"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 17"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["bonnet_open"]
 				},
 				"bonnet_close": {
-					"animations": ["bonnet_close"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 18"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["bonnet_close"]
 				},
 				"roll_up2": {
-					"animations": ["roll_up2"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 21"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_down2": "query.variant == 22"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["roll_up2"]
 				},
 				"roll_down2": {
-					"animations": ["roll_down2"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 22"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"siren": "query.variant == 23"}
+                    ],
+					"animations": ["roll_down2"]
 				},
 				"siren": {
-					"animations": ["siren"],
 					"transitions": [
-						{
-							"car_on": "!q.variant == 23"
-						}
-					]
+                        {"car_on": "query.variant == 1"},
+						{"car_off": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"roll_down2": "query.variant == 22"}
+                    ],
+					"animations": ["siren"]
 				}
 			}
 		}
