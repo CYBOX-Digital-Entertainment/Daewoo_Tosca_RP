@@ -6,11 +6,8 @@
 			"materials": {
 				"default": "entity_emissive_alpha",
 				"tosca_police": "entity_emissive_alpha",
-				"tosca_windows": "entity_alphablend",
-				"layer1": "entity_alphatest",
-				"layer2": "entity_alphatest",
-				"layer3": "entity_alphatest",
-				"layer4": "entity_alphatest"
+				"tosca_polygon": "entity_custom",
+				"tosca_windows": "entity_alphablend"
 			},
 			"textures": {
 				"undyed": "textures/entity/tosca/tosca_gb",
@@ -24,6 +21,7 @@
 				"sdg": "textures/entity/tosca/tosca_sdg",
 				"wp": "textures/entity/tosca/tosca_wp",
 				"tosca_police": "textures/entity/tosca/tosca_police",
+				"tosca_polygon": "textures/entity/tosca/tosca_polygon",
 				"tosca_windows": "textures/entity/tosca/tosca_gb",
 				"layer1": "textures/entity/tosca/tosca_gb",
 				"layer2": "textures/entity/tosca/tosca_gb",
@@ -33,6 +31,7 @@
 			"geometry": {
 				"default": "geometry.tosca",
 				"tosca_police": "geometry.tosca_police",
+				"tosca_polygon": "geometry.tosca_polygon",
 				"tosca_windows": "geometry.tosca_windows",
 				"layer1": "geometry.tosca_lf_wheel",
 				"layer2": "geometry.tosca_rf_wheel",
@@ -42,6 +41,7 @@
 			"render_controllers": [
 				"controller.render.tosca",
 				"controller.render.tosca_police",
+				"controller.render.tosca_polygon",
 				"controller.render.tosca_windows",
 				"controller.render.layer1",
 				"controller.render.layer2",

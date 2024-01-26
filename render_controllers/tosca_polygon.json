@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.tosca_polygon": {
+			"textures": [
+				"Texture.tosca_polygon"
+			],
+			"materials": [
+				{
+					"*": "Material.tosca_polygon"
+				}
+			],
+			"geometry": "Geometry.tosca_polygon"
+		}
+	}
+}
