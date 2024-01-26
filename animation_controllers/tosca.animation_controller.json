@@ -22,12 +22,12 @@
 						{"siren": "query.variant == 23"}
                     ],
                     "animations": [
-                        "light_off"
+                        "car_off"
                     ]
                 },
 				"car_on": {
                     "transitions": [
-                        {"default": "query.skin_id == 0"},
+                        {"default": "query.variant == 0"},
 						{"car_off": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -49,7 +49,7 @@
                 },
 				"car_off": {
 					"transitions": [
-                        {"default": "query.skin_id == 0"},
+                        {"default": "query.variant == 0"},
 						{"car_on": "query.variant == 1"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
