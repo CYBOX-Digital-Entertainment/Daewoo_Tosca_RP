@@ -21,7 +21,7 @@
       },
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Array.variants[query.variant]" ]
+      "textures": [ "Array.variants[query.skin_id]" ]
     }
   }
 }

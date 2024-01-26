@@ -1,12 +1,11 @@
-//bridge-file-version: #0
 {
-	"format_version": "1.8.0",
-	"render_controllers": {
-		"controller.render.tosca_police": {
-			"part_visibility": [
-				{ "*": "query.variant == 10" }
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.tosca_police": {
+		"part_visibility": [
+				{ "*": "query.skin_id == 10" }
 			],
-			"arrays": {
+      "arrays": {
         "textures": {
           "Array.variants": [
 			"Texture.undyed",
@@ -23,9 +22,9 @@
           ]
         }
       },
-			"geometry": "Geometry.tosca_police",
+      "geometry": "Geometry.tosca_police",
       "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Array.variants[query.variant]" ]
+      "textures": [ "Array.variants[query.skin_id]" ]
     }
   }
 }

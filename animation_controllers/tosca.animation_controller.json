@@ -5,67 +5,142 @@
 			"states": {
 				"default": {
 					"transitions": [
-						{"car_on": "query.skin_id == 1"},
-						{"car_off": "query.skin_id == 2"},
-						{"light_on": "query.skin_id == 3"},
-						{"light_off": "query.skin_id == 4"},
-						{"left_signal": "query.skin_id == 5"},
-						{"right_signal": "query.skin_id == 6"},
-						{"right_front_door_open": "query.skin_id == 7"},
-						{"right_front_door_close": "query.skin_id == 8"},
-						{"roll_up": "query.skin_id == 9"},
-						{"roll_down": "query.skin_id == 10"},
-						{"bonnet_open": "query.skin_id == 17"},
-						{"bonnet_close": "query.skin_id == 18"},
-						{"roll_up2": "query.skin_id == 21"},
-						{"roll_down2": "query.skin_id == 22"},
-						{"siren": "query.skin_id == 23"}
+						{"car_on": "q.variant == 1"},
+						{"car_off": "q.variant == 2"},
+						{"light_on": "q.variant == 3"},
+						{"light_off": "q.variant == 4"},
+						{"left_signal": "q.variant == 5"},
+						{"right_signal": "q.variant == 6"},
+						{"right_front_door_open": "q.variant == 7"},
+						{"right_front_door_close": "q.variant == 8"},
+						{"roll_up": "q.variant == 9"},
+						{"roll_down": "q.variant == 10"},
+						{"bonnet_open": "q.variant == 17"},
+						{"bonnet_close": "q.variant == 18"},
+						{"roll_up2": "q.variant == 21"},
+						{"roll_down2": "q.variant == 22"},
+						{"siren": "q.variant == 23"}
 					]
 				},
 				"car_on": {
-					"animations": ["car_on"]
+					"animations": ["car_on"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 1"
+						}
+					]
 				},
 				"car_off": {
-					"animations": ["car_off"]
+					"animations": ["car_off"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 2"
+						}
+					]
 				},
 				"light_on": {
-					"animations": ["light_on"]
+					"animations": ["light_on"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 3"
+						}
+					]
 				},
 				"light_off": {
-					"animations": ["light_off"]
+					"animations": ["light_off"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 4"
+						}
+					]
 				},
 				"left_signal": {
-					"animations": ["left_signal"]
+					"animations": ["left_signal"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 5"
+						}
+					]
 				},
 				"right_signal": {
-					"animations": ["right_signal"]
+					"animations": ["right_signal"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 6"
+						}
+					]
 				},
 				"right_front_door_open": {
-					"animations": ["right_front_door_open"]
+					"animations": ["right_front_door_open"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 7"
+						}
+					]
 				},
 				"right_front_door_close": {
-					"animations": ["right_front_door_close"]
+					"animations": ["right_front_door_close"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 8"
+						}
+					]
 				},
 				"roll_up": {
-					"animations": ["roll_up"]
+					"animations": ["roll_up"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 9"
+						}
+					]
 				},
 				"roll_down": {
-					"animations": ["roll_down"]
+					"animations": ["roll_down"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 10"
+						}
+					]
 				},
 				"bonnet_open": {
-					"animations": ["bonnet_open"]
+					"animations": ["bonnet_open"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 17"
+						}
+					]
 				},
 				"bonnet_close": {
-					"animations": ["bonnet_close"]
+					"animations": ["bonnet_close"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 18"
+						}
+					]
 				},
 				"roll_up2": {
-					"animations": ["roll_up2"]
+					"animations": ["roll_up2"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 21"
+						}
+					]
 				},
 				"roll_down2": {
-					"animations": ["roll_down2"]
+					"animations": ["roll_down2"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 22"
+						}
+					]
 				},
 				"siren": {
-					"animations": ["siren"]
+					"animations": ["siren"],
+					"transitions": [
+						{
+							"car_on": "!q.variant == 23"
+						}
+					]
 				}
 			}
 		}
