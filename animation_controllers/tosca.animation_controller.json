@@ -23,7 +23,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
                     "animations": [
                         "back_mirror_close"
@@ -49,7 +50,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
                     "animations": [
                         "back_mirror_open"
@@ -75,7 +77,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
                     "animations": [
                         "back_mirror_close"
@@ -100,7 +103,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
                     "animations": [
                         "light_on"
@@ -125,7 +129,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
                     "animations": [
                         "light_off"
@@ -150,7 +155,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
                     "animations": [
                         "left_signal"
@@ -175,7 +181,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["right_signal"]
 				},
@@ -198,7 +205,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["right_front_door_open"]
 				},
@@ -221,7 +229,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["right_front_door_close"]
 				},
@@ -244,7 +253,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["roll_up"]
 				},
@@ -267,7 +277,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["roll_down"]
 				},
@@ -290,7 +301,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["bonnet_open"]
 				},
@@ -313,7 +325,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["bonnet_close"]
 				},
@@ -336,7 +349,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["roll_up2"]
 				},
@@ -359,7 +373,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["roll_down2"]
 				},
@@ -381,7 +396,8 @@
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["door_open"]
 				},
@@ -403,7 +419,8 @@
 						{"door_open": "query.variant == 23"},
 						{"door_open2": "query.variant == 25"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["door_close"]
 				},
@@ -425,7 +442,8 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"door_close2": "query.variant == 26"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["door_open2"]
 				},
@@ -447,9 +465,33 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
-						{"siren": "query.variant == 27"}
+						{"back_mirror_close2": "query.variant == 27"},
+						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["door_close2"]
+				},
+				"back_mirror_close2": {
+					"transitions": [
+                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_close": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"roll_up2": "query.variant == 21"},
+						{"door_open": "query.variant == 23"},
+						{"door_close": "query.variant == 24"},
+						{"door_open2": "query.variant == 25"},
+						{"door_close2": "query.variant == 26"},
+						{"siren": "query.variant == 28"}
+                    ],
+					"animations": ["back_mirror_close2"]
 				},
 				"siren": {
 					"transitions": [
@@ -470,7 +512,8 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"door_open2": "query.variant == 25"},
-						{"door_close2": "query.variant == 26"}
+						{"door_close2": "query.variant == 26"},
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["siren"]
 				}
