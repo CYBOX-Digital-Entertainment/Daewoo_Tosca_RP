@@ -330,54 +330,6 @@
                     ],
 					"animations": ["bonnet_close"]
 				},
-				"roll_up2": {
-					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"roll_down2": "query.variant == 22"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"door_open2": "query.variant == 25"},
-						{"door_close2": "query.variant == 26"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.variant == 28"}
-                    ],
-					"animations": ["roll_up2"]
-				},
-				"roll_down2": {
-					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"roll_up2": "query.variant == 21"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"door_open2": "query.variant == 25"},
-						{"door_close2": "query.variant == 26"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.variant == 28"}
-                    ],
-					"animations": ["roll_down2"]
-				},
 				"door_open": {
 					"transitions": [
                         {"back_mirror_open": "query.variant == 1"},
@@ -423,52 +375,6 @@
 						{"siren": "query.variant == 28"}
                     ],
 					"animations": ["door_close"]
-				},
-				"door_open2": {
-					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"roll_up2": "query.variant == 21"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"door_close2": "query.variant == 26"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.variant == 28"}
-                    ],
-					"animations": ["door_open2"]
-				},
-				"door_close2": {
-					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"roll_up2": "query.variant == 21"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"door_open2": "query.variant == 25"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.variant == 28"}
-                    ],
-					"animations": ["door_close2"]
 				},
 				"back_mirror_close2": {
 					"transitions": [
