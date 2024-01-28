@@ -7,7 +7,8 @@
 				"default": "entity_emissive_alpha",
 				"tosca_police": "entity_emissive_alpha",
 				"tosca_polygon": "entity_custom",
-				"tosca_windows": "entity_alphablend"
+				"tosca_windows": "entity_alphablend",
+				"tosca_info": "entity_alphatest"
 			},
 			"textures": {
 				"undyed": "textures/entity/tosca/tosca_gb",
@@ -26,7 +27,8 @@
 				"layer1": "textures/entity/tosca/tosca_gb",
 				"layer2": "textures/entity/tosca/tosca_gb",
 				"layer3": "textures/entity/tosca/tosca_gb",
-				"layer4": "textures/entity/tosca/tosca_gb"
+				"layer4": "textures/entity/tosca/tosca_gb",
+				"tosca_info": "textures/entity/tosca/tosca_info"
 			},
 			"geometry": {
 				"default": "geometry.tosca",
@@ -36,7 +38,8 @@
 				"layer1": "geometry.tosca_lf_wheel",
 				"layer2": "geometry.tosca_rf_wheel",
 				"layer3": "geometry.tosca_lb_wheel",
-				"layer4": "geometry.tosca_rb_wheel"
+				"layer4": "geometry.tosca_rb_wheel",
+				"tosca_info": "geometry.tosca_info"
 			},
 			"render_controllers": [
 				"controller.render.tosca",
@@ -46,8 +49,8 @@
 				"controller.render.layer1",
 				"controller.render.layer2",
 				"controller.render.layer3",
-				"controller.render.layer4"
-				
+				"controller.render.layer4",
+				"controller.render.tosca_info"
 			],
 			"spawn_egg": {
 				"texture": "tosca_gb"

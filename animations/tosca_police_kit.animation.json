@@ -30,6 +30,9 @@
 			"loop": true,
 			"animation_length": 0.15625,
 			"bones": {
+				"body": {
+					"rotation": ["Math.max(30, Math.min(-30,query.yaw_speed * 0.5))*-1", 0, -0]
+				},
 				"left_light_po_off": {
 					"scale": {
 						"0.0": [1, 1, 1],
