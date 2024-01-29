@@ -1,0 +1,17 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.tosca_gps": {
+			"textures": [
+				"Texture.tosca_gps"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.tosca_gps"
+		}
+	}
+}
