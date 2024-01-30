@@ -84,8 +84,12 @@
 				"bonnet_close": "animation.tosca.bonnet_close",
 				"door_open": "animation.tosca.door_open",
 				"door_close": "animation.tosca.door_close",
-				"siren": "animation.tosca_police.siren",
 				"back_mirror_close2": "animation.tosca.back_mirror_close2",
+				"siren": "animation.tosca_police.siren",
+				"luminous1": "animation.tosca.luminous",
+				"luminous2": "animation.tosca.luminous",
+				"freight": "animation.tosca.freight",
+				"wiper": "animation.tosca.wiper",
 				"tosca_controller": "controller.animation.tosca"
 			},
 			"scripts": {
@@ -113,6 +117,15 @@
 					},
 					{
 						"speed4": "query.mark_variant == 4 && query.is_moving == 1"
+					},
+					{
+						"luminous1": "query.time_of_day >= 0 && query.time_of_day <= 0.21"
+					},
+					{
+						"luminous2": "query.time_of_day >= 0.81 && query.time_of_day <= 1"
+					},
+					{
+						"freight": "query.mark_variant == 5 && query.has_rider == 0"
 					},
 					"setup",
 					"normal",
