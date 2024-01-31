@@ -87,9 +87,6 @@
 				},
 				"steering_wheel": {
 					"rotation": [0, 0, "Math.max(-28, Math.min(28,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
-				},
-				"outside": {
-					"rotation": [0, 0, "Math.max(-2.5, Math.min(2.5,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
 				}
 			}
 		},

@@ -127,6 +127,9 @@
 					{
 						"freight": "query.mark_variant == 5 && query.has_rider == 0"
 					},
+					{
+						"wiper": "query.mark_variant == 1 &&  query.is_moving == 1"
+					},
 					"setup",
 					"normal",
 					"tosca_controller"
