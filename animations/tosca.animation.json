@@ -1057,11 +1057,11 @@
 							"post": [80, 0, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.2333": {
+						"0.1667": {
 							"post": [69.33, 0, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.3667": {
+						"0.3833": {
 							"post": [38.33, 0, 0],
 							"lerp_mode": "catmullrom"
 						},
@@ -2397,7 +2397,7 @@
 					"rotation": [0, 4, 0]
 				},
 				"present": {
-					"position": [-12.75, -5.5, 0],
+					"position": [-12.75, -3.225, 0],
 					"scale": 100
 				}
 			}
