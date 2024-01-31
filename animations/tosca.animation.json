@@ -2383,6 +2383,24 @@
 					"position": [0, 0, 1]
 				}
 			}
+		},
+		"animation.tosca_info.freight": {
+			"loop": true,
+			"bones": {
+				"box_": {
+					"rotation": [0, 3, 0]
+				},
+				"box_2": {
+					"rotation": [0, -2, 0]
+				},
+				"box_3": {
+					"rotation": [0, 4, 0]
+				},
+				"present": {
+					"position": [-12.75, -5.5, 0],
+					"scale": 100
+				}
+			}
 		}
 	}
 }

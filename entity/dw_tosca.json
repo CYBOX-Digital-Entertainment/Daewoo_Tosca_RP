@@ -88,7 +88,7 @@
 				"siren": "animation.tosca_police.siren",
 				"luminous1": "animation.tosca.luminous",
 				"luminous2": "animation.tosca.luminous",
-				"freight": "animation.tosca.freight",
+				"freight": "animation.tosca_info.freight",
 				"wiper": "animation.tosca.wiper",
 				"tosca_controller": "controller.animation.tosca"
 			},
