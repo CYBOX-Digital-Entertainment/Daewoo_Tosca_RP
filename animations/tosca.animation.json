@@ -1044,6 +1044,12 @@
 						},
 						"0.5333": [80, 0, 0]
 					}
+				},
+				"daewoo_back": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5333": [0, 0.24037, 0.21147]
+					}
 				}
 			}
 		},
@@ -1964,6 +1970,41 @@
 				}
 			}
 		},
+		"animation.tosca.luminous": {
+			"loop": true,
+			"bones": {
+				"leftdb_off": {
+					"position": [0, 0, -2]
+				},
+				"leftdb_on": {
+					"position": [0, 0, 1]
+				},
+				"rightdb_off": {
+					"position": [0, 0, -1]
+				},
+				"rightdb_off2": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.tosca_info.freight": {
+			"loop": true,
+			"bones": {
+				"box_": {
+					"rotation": [0, 3, 0]
+				},
+				"box_2": {
+					"rotation": [0, -2, 0]
+				},
+				"box_3": {
+					"rotation": [0, 4, 0]
+				},
+				"present": {
+					"position": [-12.75, -3.225, 0],
+					"scale": 100
+				}
+			}
+		},
 		"animation.tosca.main_windows_open2": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
@@ -2364,41 +2405,6 @@
 				},
 				"rightdbs": {
 					"rotation": [0, 0, 0]
-				}
-			}
-		},
-		"animation.tosca.luminous": {
-			"loop": true,
-			"bones": {
-				"leftdb_off": {
-					"position": [0, 0, -2]
-				},
-				"leftdb_on": {
-					"position": [0, 0, 1]
-				},
-				"rightdb_off": {
-					"position": [0, 0, -1]
-				},
-				"rightdb_off2": {
-					"position": [0, 0, 1]
-				}
-			}
-		},
-		"animation.tosca_info.freight": {
-			"loop": true,
-			"bones": {
-				"box_": {
-					"rotation": [0, 3, 0]
-				},
-				"box_2": {
-					"rotation": [0, -2, 0]
-				},
-				"box_3": {
-					"rotation": [0, 4, 0]
-				},
-				"present": {
-					"position": [-12.75, -3.225, 0],
-					"scale": 100
 				}
 			}
 		}
