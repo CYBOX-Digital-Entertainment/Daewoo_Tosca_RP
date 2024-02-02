@@ -88,7 +88,7 @@
 				"siren": "animation.tosca_police.siren",
 				"luminous1": "animation.tosca.luminous",
 				"luminous2": "animation.tosca.luminous",
-				"freight": "animation.tosca_info.freight",
+				"freight": "animation.tosca.freight",
 				"wiper": "animation.tosca.wiper",
 				"tosca_controller": "controller.animation.tosca"
 			},
@@ -128,7 +128,7 @@
 						"freight": "query.mark_variant == 5 && query.has_rider == 0"
 					},
 					{
-						"wiper": "query.mark_variant == 1 &&  query.is_moving == 1"
+						"wiper": "query.is_in_water_or_rain == 1 &&  query.is_moving == 1"
 					},
 					"setup",
 					"normal",
