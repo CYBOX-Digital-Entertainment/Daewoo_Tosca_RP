@@ -19,5 +19,8 @@
             "uuid": "440eb0e5-7abd-403a-90e5-3366bad2a97b",
             "version": [2, 0, 0]
         }
+    ],
+	"capabilities" : [
+        "raytraced"
     ]
 }

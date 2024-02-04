@@ -20,7 +20,9 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.variant == 28"}
+						{"siren": "query.variant == 28"},
+						{"freight_add": "query.mark_variant == 5"},
+						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
                     ],
                     "animations": [
                         "back_mirror_close"
@@ -357,6 +359,18 @@
 						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["siren"]
+				},
+				"freight_add": {
+					"transitions": [
+                        {"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+                    ],
+					"animations": ["freight_add"]
+				},
+				"freight_remove": {
+					"transitions": [
+                        {"freight_add": "query.mark_variant == 5"}
+                    ],
+					"animations": ["freight_remove"]
 				}
 			}
 		}

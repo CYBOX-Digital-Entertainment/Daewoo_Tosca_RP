@@ -7,7 +7,7 @@
 				"default": "blaze_body",
 				"tosca_police": "blaze_body",
 				"tosca_gps": "blaze_body",
-				"tosca_polygon": "entity_custom",
+				"tosca_polygon": "entity_alphablend",
 				"tosca_windows": "entity_alphablend",
 				"tosca_info": "entity_alphatest"
 			},
@@ -88,7 +88,8 @@
 				"siren": "animation.tosca_police.siren",
 				"luminous1": "animation.tosca.luminous",
 				"luminous2": "animation.tosca.luminous",
-				"freight": "animation.tosca.freight",
+				"freight_add": "animation.tosca.freight_add",
+				"freight_remove": "animation.tosca.freight_remove",
 				"wiper": "animation.tosca.wiper",
 				"tosca_controller": "controller.animation.tosca"
 			},
@@ -123,9 +124,6 @@
 					},
 					{
 						"luminous2": "query.time_of_day >= 0.81 && query.time_of_day <= 1"
-					},
-					{
-						"freight": "query.mark_variant == 5 && query.has_rider == 0"
 					},
 					{
 						"wiper": "query.is_in_water_or_rain == 1 &&  query.is_moving == 1"
