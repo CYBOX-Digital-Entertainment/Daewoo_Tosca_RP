@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "cybox:dw_tosca_solid",
+			"materials": {
+				"default": "entity_alphablend"
+			},
+			"textures": {
+				"default": "textures/entity/tosca/tosca_gb"
+			},
+			"geometry": {
+				"default": "geometry.dw_tosca_solid"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "tosca_gb"
+			}
+		}
+	}
+}

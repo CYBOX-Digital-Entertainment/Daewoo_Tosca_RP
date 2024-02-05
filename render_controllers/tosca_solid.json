@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.tosca_solid": {
+			"textures": [
+				"Texture.tosca_solid"
+			],
+			"materials": [
+				{
+					"*": "Material.tosca_solid"
+				}
+			],
+			"geometry": "Geometry.tosca_solid"
+		}
+	}
+}

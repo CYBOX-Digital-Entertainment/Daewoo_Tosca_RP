@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.dw_tosca_key.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [66, 60, -60],
+					"position": [3, 23, 4]
+				},
+				"bone": {
+					"rotation": [40, 0, 0],
+					"position": [-1.7399, -2.09007, 3.92643],
+					"scale": 3
+				}
+			}
+		},
+		"animation.dw_tosca_key.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 0, 0],
+					"position": [0.5, 22.5, -0.5]
+				}
+			}
+		}
+	}
+}

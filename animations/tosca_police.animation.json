@@ -8,14 +8,20 @@
 					"rotation": ["query.vertical_speed * -1", 0, 0]
 				},
 				"body_police": {
-					"scale": [1, 1, 0.994],
-					"rotation": ["query.vertical_speed * -1", 0, 0]
+					"rotation": ["query.vertical_speed * -1", 0, 0],
+					"scale": [1, 1, 0.994]
 				},
 				"left_light_po_on": {
 					"scale": [0.995, 0.99, 0.99]
 				},
 				"right_light_po_on": {
 					"scale": [0.995, 0.99, 0.99]
+				},
+				"left_light_po_on2": {
+					"scale": 0
+				},
+				"right_light_po_on2": {
+					"scale": 0
 				}
 			}
 		},
@@ -79,7 +85,7 @@
 		},
 		"animation.tosca_police.siren": {
 			"loop": true,
-			"animation_length": 0.16667,
+			"animation_length": 0.1667,
 			"bones": {
 				"body_police": {
 					"scale": [1, 1, 0.994]
@@ -110,6 +116,30 @@
 						"0.0": [0, 0, 0],
 						"0.0833": {"pre": [0, 0, 0], "post": [1, 1, 1]},
 						"0.1667": {"pre": [1, 1, 1], "post": [0, 0, 0]}
+					}
+				},
+				"left_light_po_off2": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.0833": {"pre": [0, 0, 0], "post": [1, 1, 1]}
+					}
+				},
+				"left_light_po_on2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0833": {"pre": [1, 1, 1], "post": [0, 0, 0]}
+					}
+				},
+				"right_light_po_off2": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0833": {"pre": [1, 1, 1], "post": [0, 0, 0]}
+					}
+				},
+				"right_light_po_on2": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.0833": {"pre": [0, 0, 0], "post": [1, 1, 1]}
 					}
 				}
 			}
