@@ -91,6 +91,10 @@
 				"freight_add": "animation.tosca.freight_add",
 				"freight_remove": "animation.tosca.freight_remove",
 				"wiper": "animation.tosca.wiper",
+				"song_loading": "animation.tosca_gps.song_loading",
+				"song_on": "animation.tosca_gps.song_on",
+				"13_loading": "animation.tosca_gps.13_loading",
+				"13_on": "animation.tosca_gps.13_on",
 				"tosca_controller": "controller.animation.tosca"
 			},
 			"scripts": {
@@ -105,19 +109,19 @@
 						"turn": "query.modified_move_speed"
 					},
 					{
-						"speed0": "query.mark_variant == 0 && query.is_moving == 1"
+						"speed0": "query.is_charged == 1 && query.is_moving == 1"
 					},
 					{
-						"speed1": "query.mark_variant == 1 && query.is_moving == 1"
+						"speed1": "query.is_saddled == 1 && query.is_moving == 1"
 					},
 					{
-						"speed2": "query.mark_variant == 2 && query.is_moving == 1"
+						"speed2": "query.is_baby == 2 && query.is_moving == 1"
 					},
 					{
-						"speed3": "query.mark_variant == 3 && query.is_moving == 1"
+						"speed3": "query.is_sheared == 3 && query.is_moving == 1"
 					},
 					{
-						"speed4": "query.mark_variant == 4 && query.is_moving == 1"
+						"speed4": "query.can_swim == 1 && query.is_moving == 1"
 					},
 					{
 						"luminous1": "query.time_of_day >= 0 && query.time_of_day <= 0.21"
@@ -127,6 +131,27 @@
 					},
 					{
 						"wiper": "query.is_in_water_or_rain == 1 &&  query.is_moving == 1"
+					},
+					{
+						"siren": "query.is_chested == 1"
+					},
+					{
+						"freight_remove": "query.mark_variant == 0"
+					},
+					{
+						"freight_add": "query.mark_variant == 1"
+					},
+					{
+						"song_loading": "query.mark_variant == 2"
+					},
+					{
+						"song_on": "query.mark_variant == 2"
+					},
+					{
+						"13_loading": "query.mark_variant == 3"
+					},
+					{
+						"13_on": "query.mark_variant == 4"
 					},
 					"setup",
 					"normal",
