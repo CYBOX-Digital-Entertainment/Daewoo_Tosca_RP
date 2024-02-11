@@ -145,13 +145,13 @@
 						"song_loading": "query.mark_variant == 2"
 					},
 					{
-						"song_on": "query.mark_variant == 2"
+						"song_on": "query.mark_variant == 3"
 					},
 					{
-						"13_loading": "query.mark_variant == 3"
+						"13_loading": "query.mark_variant == 4"
 					},
 					{
-						"13_on": "query.mark_variant == 4"
+						"13_on": "query.mark_variant == 5"
 					},
 					"setup",
 					"normal",
