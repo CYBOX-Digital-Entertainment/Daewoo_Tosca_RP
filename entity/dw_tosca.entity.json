@@ -4,9 +4,9 @@
 		"description": {
 			"identifier": "cybox:dw_tosca",
 			"materials": {
-				"default": "blaze_body",
-				"tosca_police": "blaze_body",
-				"tosca_gps": "blaze_body",
+				"default": "entity_emissive_alpha",
+				"tosca_police": "entity_emissive_alpha",
+				"tosca_gps": "entity_emissive_alpha",
 				"tosca_polygon": "entity_alphablend",
 				"tosca_windows": "entity_alphablend",
 				"tosca_info": "entity_alphatest"
@@ -109,19 +109,19 @@
 						"turn": "query.modified_move_speed"
 					},
 					{
-						"speed0": "query.is_charged == 1 && query.is_moving == 1"
+						"speed0": "query.movement == 0.25 && query.is_moving == 1"
 					},
 					{
-						"speed1": "query.is_saddled == 1 && query.is_moving == 1"
+						"speed1": "query.movement == 0.375 && query.is_moving == 1"
 					},
 					{
-						"speed2": "query.is_baby == 2 && query.is_moving == 1"
+						"speed2": "query.movement == 0.5 && query.is_moving == 1"
 					},
 					{
-						"speed3": "query.is_sheared == 3 && query.is_moving == 1"
+						"speed3": "query.movement == 0.735 && query.is_moving == 1"
 					},
 					{
-						"speed4": "query.can_swim == 1 && query.is_moving == 1"
+						"speed4": "query.movement == 1 && query.is_moving == 1"
 					},
 					{
 						"luminous1": "query.time_of_day >= 0 && query.time_of_day <= 0.21"
