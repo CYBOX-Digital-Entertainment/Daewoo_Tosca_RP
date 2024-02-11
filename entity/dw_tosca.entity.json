@@ -65,11 +65,6 @@
 				"pedal": "animation.tosca.pedal",
 				"turn": "animation.tosca.turn",
 				"setup": "animation.tosca.spawn",
-				"speed0": "animation.tosca.speed0",
-				"speed1": "animation.tosca.speed1",
-				"speed2": "animation.tosca.speed2",
-				"speed3": "animation.tosca.speed3",
-				"speed4": "animation.tosca.speed4",
 				"back_mirror_open": "animation.tosca.back_mirror_open",
 				"back_mirror_close": "animation.tosca.back_mirror_close",
 				"light_on": "animation.tosca.light_on",
@@ -107,21 +102,6 @@
 					},
 					{	
 						"turn": "query.modified_move_speed"
-					},
-					{
-						"speed0": "query.movement == 0.25 && query.is_moving == 1"
-					},
-					{
-						"speed1": "query.movement == 0.375 && query.is_moving == 1"
-					},
-					{
-						"speed2": "query.movement == 0.5 && query.is_moving == 1"
-					},
-					{
-						"speed3": "query.movement == 0.735 && query.is_moving == 1"
-					},
-					{
-						"speed4": "query.movement == 1 && query.is_moving == 1"
 					},
 					{
 						"luminous1": "query.time_of_day >= 0 && query.time_of_day <= 0.21"
