@@ -128,6 +128,7 @@
 			}
 		},
 		"animation.tosca.speed0": {
+			"anim_time_update": "query.modified_distance_moved * 0.0614",
 			"loop": true,
 			"animation_length": 1.4,
 			"bones": {
@@ -265,6 +266,7 @@
 			}
 		},
 		"animation.tosca.speed1": {
+			"anim_time_update": "query.modified_distance_moved * 0.0614",
 			"loop": true,
 			"animation_length": 1.4,
 			"bones": {
@@ -410,6 +412,7 @@
 			}
 		},
 		"animation.tosca.speed2": {
+			"anim_time_update": "query.modified_distance_moved * 0.0614",
 			"loop": true,
 			"animation_length": 1.4,
 			"bones": {
@@ -551,6 +554,7 @@
 			}
 		},
 		"animation.tosca.speed3": {
+			"anim_time_update": "query.modified_distance_moved * 0.0614",
 			"loop": true,
 			"animation_length": 1.4,
 			"bones": {
@@ -696,6 +700,7 @@
 			}
 		},
 		"animation.tosca.speed4": {
+			"anim_time_update": "query.modified_distance_moved * 0.0614",
 			"loop": true,
 			"animation_length": 1.4,
 			"bones": {
