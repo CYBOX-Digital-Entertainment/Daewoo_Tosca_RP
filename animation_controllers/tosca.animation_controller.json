@@ -19,10 +19,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
                     "animations": [
                         "back_mirror_close"
@@ -44,10 +41,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
                     "animations": [
                         "back_mirror_open"
@@ -69,10 +63,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
                     "animations": [
                         "back_mirror_close"
@@ -93,10 +84,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
                     "animations": [
                         "light_on"
@@ -117,10 +105,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
                     "animations": [
                         "light_off"
@@ -141,10 +126,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
                     "animations": [
                         "left_signal"
@@ -165,10 +147,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["right_signal"]
 				},
@@ -187,10 +166,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["right_front_door_open"]
 				},
@@ -209,10 +185,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["right_front_door_close"]
 				},
@@ -231,10 +204,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["roll_up"]
 				},
@@ -253,10 +223,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["roll_down"]
 				},
@@ -275,10 +242,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["bonnet_open"]
 				},
@@ -297,10 +261,7 @@
 						{"bonnet_open": "query.variant == 17"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["bonnet_close"]
 				},
@@ -319,10 +280,7 @@
 						{"bonnet_open": "query.variant == 17"},
 						{"bonnet_close": "query.variant == 18"},
 						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["door_open"]
 				},
@@ -341,10 +299,7 @@
 						{"bonnet_open": "query.variant == 17"},
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"back_mirror_close2": "query.variant == 27"}
                     ],
 					"animations": ["door_close"]
 				},
@@ -363,78 +318,9 @@
 						{"bonnet_open": "query.variant == 17"},
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"siren": "query.is_chested == 1"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
+						{"door_close": "query.variant == 24"}
                     ],
 					"animations": ["back_mirror_close2"]
-				},
-				"siren": {
-					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"freight_add": "query.mark_variant == 5"},
-						{"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
-                    ],
-					"animations": ["siren"]
-				},
-				"freight_add": {
-					"transitions": [
-						{"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-                        {"freight_remove": "query.mark_variant == 0 || query.mark_variant == 1 || query.mark_variant == 2 || query.mark_variant == 3 || query.mark_variant == 4"}
-                    ],
-					"animations": ["freight_add"]
-				},
-				"freight_remove": {
-					"transitions": [
-						{"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"},
-						{"siren": "query.is_chested == 1"},
-                        {"freight_add": "query.mark_variant == 5"}
-                    ],
-					"animations": ["freight_remove"]
 				}
 			}
 		}
