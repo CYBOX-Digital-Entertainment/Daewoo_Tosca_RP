@@ -7,7 +7,7 @@
 				"default": "entity_alphablend"
 			},
 			"textures": {
-				"default": "textures/entity/tosca/tosca_gb"
+				"default": "textures/entity/tosca/tosca_polygon"
 			},
 			"geometry": {
 				"default": "geometry.dw_tosca_solid"

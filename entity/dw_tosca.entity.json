@@ -90,6 +90,11 @@
 				"song_on": "animation.tosca_gps.song_on",
 				"13_loading": "animation.tosca_gps.13_loading",
 				"13_on": "animation.tosca_gps.13_on",
+				"speed0": "animation.tosca.speed0",
+				"speed1": "animation.tosca.speed1",
+				"speed2": "animation.tosca.speed2",
+				"speed3": "animation.tosca.speed3",
+				"speed4": "animation.tosca.speed4",
 				"tosca_controller": "controller.animation.tosca"
 			},
 			"scripts": {
@@ -132,6 +137,21 @@
 					},
 					{
 						"13_on": "query.mark_variant == 5"
+					},
+					{
+						"speed0": "query.can_climb == 0 && query.is_baby== 0 && query.is_tamed == 0"
+					},
+					{
+						"speed1": "query.can_climb == 1 && query.is_baby== 0 && query.is_tamed == 0"
+					},
+					{
+						"speed2": "query.can_climb == 0 && query.is_baby == 1 && query.is_tamed == 0"
+					},
+					{
+						"speed3": "query.can_climb == 1 && query.is_baby == 1 && query.is_tamed == 0"
+					},
+					{
+						"speed4": "query.can_climb == 0 && query.is_baby== 0 && query.is_tamed == 1"
 					},
 					"setup",
 					"normal",

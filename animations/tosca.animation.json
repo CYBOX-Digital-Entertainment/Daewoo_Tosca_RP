@@ -1,6 +1,24 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
+		"animation.tosca.dummy": {
+			"loop": true
+		},
+		"animation.tosca.dummy0": {
+			"loop": true
+		},
+		"animation.tosca.dummy1": {
+			"loop": true
+		},
+		"animation.tosca.dummy2": {
+			"loop": true
+		},
+		"animation.tosca.dummy3": {
+			"loop": true
+		},
+		"animation.tosca.dummy4": {
+			"loop": true
+		},
 		"animation.tosca.spawn": {
 			"animation_length": 0.83333,
 			"bones": {
