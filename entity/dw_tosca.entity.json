@@ -90,6 +90,32 @@
 				"song_on": "animation.tosca_gps.song_on",
 				"13_loading": "animation.tosca_gps.13_loading",
 				"13_on": "animation.tosca_gps.13_on",
+				"cat_loading": "animation.tosca_gps.cat_loading",
+				"cat_on": "animation.tosca_gps.cat_on",
+				"blocks_loading": "animation.tosca_gps.blocks_loading",
+				"blocks_on": "animation.tosca_gps.blocks_on",
+				"chirp_loading": "animation.tosca_gps.chirp_loading",
+				"chirp_on": "animation.tosca_gps.chirp_on",
+				"far_loading": "animation.tosca_gps.far_loading",
+				"far_on": "animation.tosca_gps.far_on",
+				"mall_loading": "animation.tosca_gps.mall_loading",
+				"mall_on": "animation.tosca_gps.mall_on",
+				"mellohi_loading": "animation.tosca_gps.mellohi_loading",
+				"mellohi_on": "animation.tosca_gps.mellohi_on",
+				"stal_loading": "animation.tosca_gps.stal_loading",
+				"stal_on": "animation.tosca_gps.stal_on",
+				"strad_loading": "animation.tosca_gps.strad_loading",
+				"strad_on": "animation.tosca_gps.strad_on",
+				"ward_loading": "animation.tosca_gps.ward_loading",
+				"ward_on": "animation.tosca_gps.ward_on",
+				"11_loading": "animation.tosca_gps.11_loading",
+				"11_on": "animation.tosca_gps.11_on",
+				"otherside_loading": "animation.tosca_gps.otherside_loading",
+				"otherside_on": "animation.tosca_gps.otherside_on",
+				"5_loading": "animation.tosca_gps.5_loading",
+				"5_on": "animation.tosca_gps.5_on",
+				"pigstep_loading": "animation.tosca_gps.pigstep_loading",
+				"pigstep_on": "animation.tosca_gps.pigstep_on",
 				"speed0": "animation.tosca.speed0",
 				"speed1": "animation.tosca.speed1",
 				"speed2": "animation.tosca.speed2",
@@ -127,16 +153,55 @@
 						"freight_add": "query.mark_variant == 1"
 					},
 					{
-						"song_loading": "query.mark_variant == 2"
+						"13_loading": "query.mark_variant == 2 && query.anim_time <= 2.88"
 					},
 					{
-						"song_on": "query.mark_variant == 3"
+						"cat_loading": "query.mark_variant == 3 && query.anim_time <= 2.88"
 					},
 					{
-						"13_loading": "query.mark_variant == 4"
+						"blocks_loading": "query.mark_variant == 4 && query.anim_time <= 2.88"
 					},
 					{
-						"13_on": "query.mark_variant == 5"
+						"chirp_loading": "query.mark_variant == 5 && query.anim_time <= 2.88"
+					},
+					{
+						"far_loading": "query.mark_variant == 6 && query.anim_time <= 2.88"
+					},
+					{
+						"mall_loading": "query.mark_variant == 7 && query.anim_time <= 2.88"
+					},
+					{
+						"mellohi_loading": "query.mark_variant == 8 && query.anim_time <= 2.88"
+					},
+					{
+						"stal_loading": "query.mark_variant == 9 && query.anim_time <= 2.88"
+					},
+					{
+						"strad_loading": "query.mark_variant == 10 && query.anim_time <= 2.88"
+					},
+					{
+						"ward_loading": "query.mark_variant == 11  && query.anim_time >= 2.88"
+					},
+					{
+						"11_loading": "query.mark_variant == 12 && query.anim_time <= 2.88"
+					},
+					{
+						"otherside_loading": "query.mark_variant == 13 && query.anim_time <= 2.88"
+					},
+					{
+						"5_loading": "query.mark_variant == 14 && query.anim_time <= 2.88"
+					},
+					{
+						"pigstep_loading": "query.mark_variant == 15 && query.anim_time <= 2.88"
+					},
+					{
+						"song_on": "query.mark_variant == 16"
+					},
+					{
+						"13_on": "query.mark_variant == 17"
+					},
+					{
+						"pigstep_on": "query.mark_variant == 18"
 					},
 					{
 						"speed0": "query.can_climb == 0 && query.is_baby== 0 && query.is_tamed == 0"
