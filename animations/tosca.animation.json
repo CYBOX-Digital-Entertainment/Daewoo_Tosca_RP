@@ -875,204 +875,6 @@
 				}
 			}
 		},
-		"animation.tosca.main_windows_open": {
-			"loop": "hold_on_last_frame",
-			"animation_length": 1,
-			"bones": {
-				"key": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.0167": [-1.25, 0, -90]
-					},
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0167": [0.17969, 0.22266, -0.03125]
-					}
-				},
-				"key_off": {
-					"position": [0, 0, -1]
-				},
-				"key_on": {
-					"position": [0, 0, 1]
-				},
-				"left_light_off": {
-					"position": [0, 0, 1]
-				},
-				"left_light_on": {
-					"position": [0, 0, -1]
-				},
-				"light_off_back": {
-					"position": [0, -2, -78],
-					"scale": [0.2, 0.5, 0.2]
-				},
-				"light_on_back": {
-					"position": [0, 0.75, 1]
-				},
-				"right_light_off": {
-					"position": [0, 0, 1]
-				},
-				"right_light_on": {
-					"position": [0, 0, -1]
-				},
-				"light_off_back_l_sg": {
-					"position": [0, -2, -11]
-				},
-				"light_off_back_r_sg": {
-					"position": [0, 0, -2]
-				},
-				"light_off_back_l_sg2": {
-					"position": [0, -1, -2]
-				},
-				"light_on_back_r_sg": {
-					"position": [0, 0, -1]
-				},
-				"light_on_back_l_sg": {
-					"position": [0, -0.75, 0]
-				},
-				"main_window": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.0": [0, 0, 15]
-					},
-					"position": {
-						"0.0": [0, 0, 0],
-						"1.0": [-1, -5.875, -0.875]
-					}
-				},
-				"left_mirror": {
-					"rotation": [0, -65, 0]
-				},
-				"right_mirror": {
-					"rotation": [0, 65, 0]
-				},
-				"gps_off": {
-					"position": [0, 0.08716, -0.99619]
-				},
-				"w_clo": {
-					"position": [0, 0, 2]
-				},
-				"leftdb2": {
-					"position": [0, 0, 1]
-				},
-				"rightdb2": {
-					"position": [0, 0, 1]
-				},
-				"menu_off": {
-					"position": [0, 1, 0]
-				},
-				"menu_on": {
-					"position": [0, -1, 0]
-				},
-				"menu_on1": {
-					"position": [0, 1, 0]
-				},
-				"menu_on2": {
-					"position": [0, -1, 0]
-				},
-				"menu_dic": {
-					"position": [0, -1, 0]
-				}
-			}
-		},
-		"animation.tosca.main_windows_close": {
-			"loop": "hold_on_last_frame",
-			"animation_length": 1,
-			"bones": {
-				"main_window": {
-					"rotation": {
-						"0.0": [0, 0, 15],
-						"1.0": [0, 0, 0]
-					},
-					"position": {
-						"0.0": [-1, -5.875, -0.875],
-						"1.0": [0, 0, 0]
-					}
-				},
-				"key": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.0167": [-1.25, 0, -90]
-					},
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.0167": [0.17969, 0.22266, -0.03125]
-					}
-				},
-				"key_off": {
-					"position": [0, 0, -1]
-				},
-				"key_on": {
-					"position": [0, 0, 1]
-				},
-				"left_light_off": {
-					"position": [0, 0, 1]
-				},
-				"left_light_on": {
-					"position": [0, 0, -1]
-				},
-				"light_off_back": {
-					"position": [0, -2, -78],
-					"scale": [0.2, 0.5, 0.2]
-				},
-				"light_on_back": {
-					"position": [0, 0.75, 1]
-				},
-				"right_light_off": {
-					"position": [0, 0, 1]
-				},
-				"right_light_on": {
-					"position": [0, 0, -1]
-				},
-				"light_off_back_l_sg": {
-					"position": [0, -2, -11]
-				},
-				"light_off_back_r_sg": {
-					"position": [0, 0, -2]
-				},
-				"light_off_back_l_sg2": {
-					"position": [0, -1, -2]
-				},
-				"light_on_back_r_sg": {
-					"position": [0, 0, -1]
-				},
-				"light_on_back_l_sg": {
-					"position": [0, -0.75, 0]
-				},
-				"left_mirror": {
-					"rotation": [0, -65, 0]
-				},
-				"right_mirror": {
-					"rotation": [0, 65, 0]
-				},
-				"gps_off": {
-					"position": [0, 0, -2]
-				},
-				"main": {
-					"position": [0, 0, 2]
-				},
-				"leftdb2": {
-					"position": [0, 0, 1]
-				},
-				"rightdb2": {
-					"position": [0, 0, 1]
-				},
-				"menu_off": {
-					"position": [0, 1, 0]
-				},
-				"menu_on": {
-					"position": [0, -1, 0]
-				},
-				"menu_on1": {
-					"position": [0, 1, 0]
-				},
-				"menu_on2": {
-					"position": [0, -1, 0]
-				},
-				"menu_dic": {
-					"position": [0, -1, 0]
-				}
-			}
-		},
 		"animation.tosca.bonnet_open": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.53333,
@@ -5221,6 +5023,208 @@
 							"post": [0, 0, 0]
 						}
 					}
+				}
+			}
+		},
+		"animation.tosca.main_windows_open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"gps_off": {
+					"position": [0, 0.08716, -0.99619]
+				},
+				"w_clo": {
+					"position": [0, 0, 2]
+				},
+				"menu_off": {
+					"position": [0, 1, 0]
+				},
+				"menu_on": {
+					"position": [0, -1, 0]
+				},
+				"menu_on1": {
+					"position": [0, 1, 0]
+				},
+				"menu_on2": {
+					"position": [0, -1, 0]
+				},
+				"menu_dic": {
+					"position": [0, -1, 0]
+				},
+				"left_light_off": {
+					"position": [0, 0, 1]
+				},
+				"left_light_on": {
+					"position": [0, 0, -1]
+				},
+				"key_on": {
+					"position": [0, 0, 1]
+				},
+				"key_off": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_r_sg": {
+					"position": [0, 0, -2]
+				},
+				"light_off_back_l_sg2": {
+					"position": [0, -1, -2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"light_on_back_r_sg": {
+					"position": [0, 0, -1]
+				},
+				"light_on_back_l_sg": {
+					"position": [0, -0.75, 0]
+				},
+				"left_mirror": {
+					"rotation": [0, -65, 0]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"right_mirror": {
+					"rotation": [0, 65, 0]
+				},
+				"main_window": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-0.05234, -0.99863, 6.00046],
+						"1.0": [0, -0.25, 8]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0.71156, -3.04, -0.45],
+						"1.0": [1.19375, -5.875, -0.875]
+					}
+				},
+				"leftdb2": {
+					"position": [0, 0, 1]
+				},
+				"rightdb2": {
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.tosca.main_windows_close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"key": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0167": [-1.25, 0, -90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0167": [0.17969, 0.22266, -0.03125]
+					}
+				},
+				"gps_off": {
+					"position": [0, 0, -2]
+				},
+				"main": {
+					"position": [0, 0, 2]
+				},
+				"menu_off": {
+					"position": [0, 1, 0]
+				},
+				"menu_on": {
+					"position": [0, -1, 0]
+				},
+				"menu_on1": {
+					"position": [0, 1, 0]
+				},
+				"menu_on2": {
+					"position": [0, -1, 0]
+				},
+				"menu_dic": {
+					"position": [0, -1, 0]
+				},
+				"left_light_off": {
+					"position": [0, 0, 1]
+				},
+				"left_light_on": {
+					"position": [0, 0, -1]
+				},
+				"key_on": {
+					"position": [0, 0, 1]
+				},
+				"key_off": {
+					"position": [0, 0, -1]
+				},
+				"light_off_back": {
+					"position": [0, -2, -78],
+					"scale": [0.2, 0.5, 0.2]
+				},
+				"light_off_back_l_sg": {
+					"position": [0, -2, -11]
+				},
+				"light_off_back_r_sg": {
+					"position": [0, 0, -2]
+				},
+				"light_off_back_l_sg2": {
+					"position": [0, -1, -2]
+				},
+				"light_on_back": {
+					"position": [0, 0.75, 1]
+				},
+				"light_on_back_r_sg": {
+					"position": [0, 0, -1]
+				},
+				"light_on_back_l_sg": {
+					"position": [0, -0.75, 0]
+				},
+				"left_mirror": {
+					"rotation": [0, -65, 0]
+				},
+				"right_light_off": {
+					"position": [0, 0, 1]
+				},
+				"right_light_on": {
+					"position": [0, 0, -1]
+				},
+				"right_mirror": {
+					"rotation": [0, 65, 0]
+				},
+				"main_window": {
+					"rotation": {
+						"0.0": [0, -0.25, 8],
+						"0.5": [-0.05234, -0.99863, 6.00046],
+						"1.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [1.19375, -5.875, -0.875],
+						"0.5": [0.71156, -3.04, -0.45],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"leftdb2": {
+					"position": [0, 0, 1]
+				},
+				"rightdb2": {
+					"position": [0, 0, 1]
 				}
 			}
 		}
