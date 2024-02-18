@@ -4,52 +4,49 @@
 		"controller.animation.tosca": {
 			"states": {
 				"default": {
-                    "transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-                    "animations": [
-                        "back_mirror_close"
-                    ]
-                },
-				"back_mirror_open": {
-                    "transitions": [
-                        {"default": "query.variant == 0"},
-						{"back_mirror_close": "query.variant == 2"},
-						{"light_on": "query.variant == 3"},
-						{"light_off": "query.variant == 4"},
-						{"left_signal": "query.variant == 5"},
-						{"right_signal": "query.variant == 6"},
-						{"right_front_door_open": "query.variant == 7"},
-						{"right_front_door_close": "query.variant == 8"},
-						{"roll_up": "query.variant == 9"},
-						{"roll_down": "query.variant == 10"},
-						{"bonnet_open": "query.variant == 17"},
-						{"bonnet_close": "query.variant == 18"},
-						{"door_open": "query.variant == 23"},
-						{"door_close": "query.variant == 24"},
-						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-                    "animations": [
-                        "back_mirror_open"
-                    ]
-                },
-				"back_mirror_close": {
+					"animations": ["back_mirror_close"],
 					"transitions": [
-                        {"default": "query.variant == 0"},
+						{"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_close": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"door_open": "query.variant == 23"},
+						{"door_close": "query.variant == 24"},
+						{"back_mirror_close2": "query.variant == 27"}
+					]
+				},
+				"back_mirror_open": {
+					"animations": ["back_mirror_open"],
+					"transitions": [
+						{"default": "query.variant == 0"},
+						{"back_mirror_close": "query.variant == 2"},
+						{"light_on": "query.variant == 3"},
+						{"light_off": "query.variant == 4"},
+						{"left_signal": "query.variant == 5"},
+						{"right_signal": "query.variant == 6"},
+						{"right_front_door_open": "query.variant == 7"},
+						{"right_front_door_close": "query.variant == 8"},
+						{"roll_up": "query.variant == 9"},
+						{"roll_down": "query.variant == 10"},
+						{"bonnet_open": "query.variant == 17"},
+						{"bonnet_close": "query.variant == 18"},
+						{"door_open": "query.variant == 23"},
+						{"door_close": "query.variant == 24"},
+						{"back_mirror_close2": "query.variant == 27"}
+					]
+				},
+				"back_mirror_close": {
+					"animations": ["back_mirror_close"],
+					"transitions": [
+						{"default": "query.variant == 0"},
 						{"back_mirror_open": "query.variant == 1"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -64,14 +61,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-                    "animations": [
-                        "back_mirror_close"
-                    ]
+					]
 				},
 				"light_on": {
+					"animations": ["light_on"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_off": "query.variant == 4"},
 						{"left_signal": "query.variant == 5"},
@@ -85,14 +80,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-                    "animations": [
-                        "light_on"
-                    ]
+					]
 				},
 				"light_off": {
+					"animations": ["light_off"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"left_signal": "query.variant == 5"},
@@ -106,14 +99,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-                    "animations": [
-                        "light_off"
-                    ]
+					]
 				},
 				"left_signal": {
+					"animations": ["left_signal"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -127,14 +118,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-                    "animations": [
-                        "left_signal"
-                    ]
+					]
 				},
 				"right_signal": {
+					"animations": ["right_signal"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -148,12 +137,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["right_signal"]
+					]
 				},
 				"right_front_door_open": {
+					"animations": ["right_front_door_open"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -167,12 +156,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["right_front_door_open"]
+					]
 				},
 				"right_front_door_close": {
+					"animations": ["right_front_door_close"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -186,12 +175,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["right_front_door_close"]
+					]
 				},
 				"roll_up": {
+					"animations": ["roll_up"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -205,12 +194,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["roll_up"]
+					]
 				},
 				"roll_down": {
+					"animations": ["roll_down"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -224,12 +213,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["roll_down"]
+					]
 				},
 				"bonnet_open": {
+					"animations": ["bonnet_open"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -243,12 +232,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["bonnet_open"]
+					]
 				},
 				"bonnet_close": {
+					"animations": ["bonnet_close"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -262,12 +251,12 @@
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["bonnet_close"]
+					]
 				},
 				"door_open": {
+					"animations": ["door_open"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -281,12 +270,12 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_close": "query.variant == 24"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["door_open"]
+					]
 				},
 				"door_close": {
+					"animations": ["door_close"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -300,12 +289,12 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"back_mirror_close2": "query.variant == 27"}
-                    ],
-					"animations": ["door_close"]
+					]
 				},
 				"back_mirror_close2": {
+					"animations": ["back_mirror_close2"],
 					"transitions": [
-                        {"back_mirror_open": "query.variant == 1"},
+						{"back_mirror_open": "query.variant == 1"},
 						{"back_mirror_close": "query.variant == 2"},
 						{"light_on": "query.variant == 3"},
 						{"light_off": "query.variant == 4"},
@@ -319,8 +308,7 @@
 						{"bonnet_close": "query.variant == 18"},
 						{"door_open": "query.variant == 23"},
 						{"door_close": "query.variant == 24"}
-                    ],
-					"animations": ["back_mirror_close2"]
+					]
 				}
 			}
 		}

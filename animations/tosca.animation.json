@@ -20,7 +20,7 @@
 			"loop": true
 		},
 		"animation.tosca.spawn": {
-			"animation_length": 0.83333,
+			"animation_length": 6.1,
 			"bones": {
 				"body": {
 					"rotation": {
@@ -38,14 +38,8 @@
 						}
 					},
 					"position": {
-						"0.0": {
-							"post": [0, -3.15, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"0.8333": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						}
+						"0.0": [0, -3.15, 0],
+						"0.8333": [0, 0, 0]
 					},
 					"scale": {
 						"0.0": {
@@ -56,10 +50,7 @@
 							"post": [0.84, 0.84, 0.84],
 							"lerp_mode": "catmullrom"
 						},
-						"0.8333": {
-							"post": [1, 1, 1],
-							"lerp_mode": "catmullrom"
-						}
+						"0.8333": [1, 1, 1]
 					}
 				}
 			}
@@ -91,6 +82,11 @@
 						"0.0": [0, 0, 0],
 						"0.2": [364.9, 0, 0]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_move"
 				}
 			}
 		},
@@ -877,7 +873,7 @@
 		},
 		"animation.tosca.bonnet_open": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.53333,
+			"animation_length": 0.58333,
 			"bones": {
 				"trunk": {
 					"rotation": {
@@ -910,11 +906,16 @@
 					"rotation": [-9.25, 0, 0],
 					"position": [0, -0.225, 2.325]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_door_open"
+				}
 			}
 		},
 		"animation.tosca.bonnet_close": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.51667,
+			"animation_length": 0.75,
 			"bones": {
 				"trunk": {
 					"rotation": {
@@ -942,6 +943,11 @@
 				},
 				"Bag1": {
 					"position": [0, 5, 69]
+				}
+			},
+			"sound_effects": {
+				"0.1167": {
+					"effect": "car_door_close"
 				}
 			}
 		},
@@ -1036,7 +1042,7 @@
 		},
 		"animation.tosca.light_on_left_signal": {
 			"loop": true,
-			"animation_length": 0.6,
+			"animation_length": 0.65,
 			"bones": {
 				"key": {
 					"rotation": {
@@ -1136,15 +1142,9 @@
 				"db_left_signal": {
 					"position": {
 						"0.0": [0, 0, 0.9],
-						"0.2833": [0, 0, 0.9],
-						"0.3": {
+						"0.3167": {
 							"pre": [0, 0, 0.9],
 							"post": [0, 0, 0]
-						},
-						"0.5833": [0, 0, 0],
-						"0.6": {
-							"pre": [0, 0, 0],
-							"post": [0, 0, 1]
 						}
 					}
 				},
@@ -1191,11 +1191,16 @@
 				"menu_dic": {
 					"position": [0, -1, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_singal"
+				}
 			}
 		},
 		"animation.tosca.light_on_right_signal": {
 			"loop": true,
-			"animation_length": 0.6,
+			"animation_length": 0.65,
 			"bones": {
 				"key": {
 					"rotation": {
@@ -1306,15 +1311,9 @@
 				"db_right_signal": {
 					"position": {
 						"0.0": [0, 0, 0.9],
-						"0.2833": [0, 0, 0.9],
-						"0.3": {
+						"0.3167": {
 							"pre": [0, 0, 0.9],
 							"post": [0, 0, 0]
-						},
-						"0.5833": [0, 0, 0],
-						"0.6": {
-							"pre": [0, 0, 0],
-							"post": [0, 0, 1]
 						}
 					}
 				},
@@ -1351,6 +1350,11 @@
 				"menu_dic": {
 					"position": [0, -1, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_singal"
+				}
 			}
 		},
 		"animation.tosca.normal": {
@@ -1381,18 +1385,18 @@
 		},
 		"animation.tosca.back_mirror_open": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 1.1167,
+			"animation_length": 2.48333,
 			"bones": {
 				"left_mirror": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.1167": [0, -65, 0]
+						"0.6333": [0, 0, 0],
+						"1.75": [0, -65, 0]
 					}
 				},
 				"right_mirror": {
 					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.1167": [0, 65, 0]
+						"0.6333": [0, 0, 0],
+						"1.75": [0, 65, 0]
 					}
 				},
 				"key": {
@@ -1515,6 +1519,11 @@
 						"0.0": [0, 0, 0],
 						"0.8333": [0, -1, 0]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_on"
 				}
 			}
 		},
@@ -1728,7 +1737,7 @@
 		},
 		"animation.tosca.right_front_door_open": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.52,
+			"animation_length": 1,
 			"bones": {
 				"right_front_door": {
 					"rotation": {
@@ -1740,18 +1749,23 @@
 							"post": [0, 26.92, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.3167": {
+						"0.3333": {
 							"post": [0, 42.73, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.4333": [0, 50, 0]
+						"0.5333": [0, 50, 0]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0333": {
+					"effect": "car_door_open"
 				}
 			}
 		},
 		"animation.tosca.right_front_door_close": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.52,
+			"animation_length": 0.75,
 			"bones": {
 				"right_front_door": {
 					"rotation": {
@@ -1767,14 +1781,22 @@
 							"post": [0, 26.92, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.4333": [0, 0, 0]
+						"0.4333": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_door_close"
 				}
 			}
 		},
 		"animation.tosca.door_open": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.43333,
+			"animation_length": 1,
 			"bones": {
 				"right_door": {
 					"rotation": {
@@ -1786,11 +1808,11 @@
 							"post": [0, 26.92, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.3167": {
+						"0.3333": {
 							"post": [0, 42.73, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.4333": [0, 50, 0]
+						"0.5333": [0, 50, 0]
 					}
 				},
 				"left_door": {
@@ -1803,11 +1825,11 @@
 							"post": [0, -26.92, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.3167": {
+						"0.3333": {
 							"post": [0, -42.73, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.4333": [0, -50, 0]
+						"0.5333": [0, -50, 0]
 					}
 				},
 				"left_front_door": {
@@ -1820,11 +1842,11 @@
 							"post": [0, -26.92, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.3167": {
+						"0.3333": {
 							"post": [0, -42.73, 0],
 							"lerp_mode": "catmullrom"
 						},
-						"0.4333": [0, -50, 0]
+						"0.5333": [0, -50, 0]
 					}
 				},
 				"left_mirror": {
@@ -1910,11 +1932,16 @@
 				"menu_dic": {
 					"position": [0, -1, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0333": {
+					"effect": "car_door_open"
+				}
 			}
 		},
 		"animation.tosca.door_close": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.43333,
+			"animation_length": 0.75,
 			"bones": {
 				"right_door": {
 					"rotation": {
@@ -2052,6 +2079,11 @@
 				},
 				"menu_dic": {
 					"position": [0, -1, 0]
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_door_close"
 				}
 			}
 		},
@@ -2260,7 +2292,7 @@
 		},
 		"animation.tosca.wiper": {
 			"loop": true,
-			"animation_length": 1.28333,
+			"animation_length": 1.2667,
 			"bones": {
 				"wire2_stick": {
 					"rotation": {
@@ -2287,8 +2319,7 @@
 						"1.2167": [0, 0.52733, 3.90225],
 						"1.2333": [0, 0.35402, 2.61975],
 						"1.25": [0, 0.19703, 1.45799],
-						"1.2667": [0, 0.06745, 0.49912],
-						"1.2833": [0, 0, 0]
+						"1.2667": [0, 0.06745, 0.49912]
 					}
 				},
 				"wire2_main": {
@@ -2304,8 +2335,7 @@
 						"0.8833": [4.16164, 1.29154, 0],
 						"1.0167": [2.42127, 0.75143, 0],
 						"1.15": [0.75783, 0.23519, 0],
-						"1.2667": [0.03912, 0.01214, 0],
-						"1.2833": [0, 0, 0]
+						"1.2667": [0.03912, 0.01214, 0]
 					}
 				},
 				"wire1_stick2": {
@@ -2333,26 +2363,23 @@
 						"1.2167": [0, 0.52733, 3.90225],
 						"1.2333": [0, 0.35402, 2.61975],
 						"1.25": [0, 0.19703, 1.45799],
-						"1.2667": [0, 0.06745, 0.49912],
-						"1.2833": [0, 0, 0]
+						"1.2667": [0, 0.06745, 0.49912]
 					}
 				},
 				"wire1_main2": {
 					"rotation": {
 						"0.0": [0, 0, 0],
-						"0.6333": [7.50054, 0.50235, -0.07185],
-						"1.2833": [0, 0, 0]
+						"0.6333": [7.50054, 0.50235, -0.07185]
 					},
 					"position": {
 						"0.0": [0, 0, 0],
-						"0.6333": [0, 0, -0.05469],
-						"1.2833": [0, 0, 0]
+						"0.6333": [0, 0, -0.05469]
 					}
 				}
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car.wiper"
+					"effect": "car_wiper"
 				}
 			}
 		},
@@ -2866,7 +2893,8 @@
 			}
 		},
 		"animation.tosca.at_p": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.33333,
 			"bones": {
 				"p_off": {
 					"position": [0, -1, 0]
@@ -2874,10 +2902,16 @@
 				"p_off3": {
 					"position": [0, 1, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_at"
+				}
 			}
 		},
 		"animation.tosca.at_r": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.33333,
 			"bones": {
 				"leaber": {
 					"position": [0, 0, 1.1]
@@ -2888,10 +2922,16 @@
 				"r_off2": {
 					"position": [0, 1, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_at"
+				}
 			}
 		},
 		"animation.tosca.at_n": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.375,
 			"bones": {
 				"leaber": {
 					"position": [0, 0, 1.72344]
@@ -2905,10 +2945,16 @@
 				"n_off2": {
 					"position": [0, 1, 0]
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_at"
+				}
 			}
 		},
 		"animation.tosca.at_d": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.375,
 			"bones": {
 				"leaber": {
 					"position": [0, 0, 2.37344]
@@ -2927,6 +2973,11 @@
 				},
 				"d_off2": {
 					"position": [0, 1, 0]
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_at"
 				}
 			}
 		},
@@ -3007,6 +3058,11 @@
 				},
 				"menu_dic": {
 					"position": [0, 0, 0]
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -3094,6 +3150,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.blocks_loading": {
@@ -3179,6 +3240,11 @@
 						},
 						"0.8833": [1, 1, 1]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -3266,6 +3332,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.far_loading": {
@@ -3352,6 +3423,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.mall_loading": {
@@ -3437,6 +3513,11 @@
 						},
 						"0.8833": [1, 1, 1]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -3562,6 +3643,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.stal_loading": {
@@ -3647,6 +3733,11 @@
 						},
 						"0.8833": [1, 1, 1]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -3734,6 +3825,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.ward_loading": {
@@ -3819,6 +3915,11 @@
 						},
 						"0.8833": [1, 1, 1]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -3911,6 +4012,11 @@
 						},
 						"0.8833": [1, 1, 1]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -4122,6 +4228,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.5_loading": {
@@ -4208,6 +4319,11 @@
 						"0.8833": [1, 1, 1]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
+				}
 			}
 		},
 		"animation.tosca_gps.pigstep_loading": {
@@ -4293,6 +4409,11 @@
 						},
 						"0.8833": [1, 1, 1]
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_sub_spawn"
 				}
 			}
 		},
@@ -5034,6 +5155,11 @@
 		"animation.tosca.main_windows_open": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
+			"sound_effects": {
+				"0.0": {
+					"effect": "car_window_out"
+				}
+			},
 			"bones": {
 				"key": {
 					"rotation": {
@@ -5135,6 +5261,11 @@
 		"animation.tosca.main_windows_close": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
+			"sound_effects": {
+					"0.0": {
+						"effect": "car_window_in"
+					}
+			},
 			"bones": {
 				"key": {
 					"rotation": {

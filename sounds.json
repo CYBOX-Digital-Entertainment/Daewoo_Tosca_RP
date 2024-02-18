@@ -8,10 +8,9 @@
 							1
 							],
 						"events": {
-				"spawn": "car.ride",
-				"wiper": "car.wiper"
+				"spawn": "dw_tosca.spawn",
 							}
-			}
+				  }  
       }
    }
 }

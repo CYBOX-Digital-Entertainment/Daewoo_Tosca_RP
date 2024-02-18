@@ -1,20 +1,61 @@
 {
-    "car.spawn": {
-        "category": "music",
-        "sounds": [
-            {
-                "name": "sounds/music/car_spawn",
-                "load_on_low_memory": true
-            }
-        ]
-    },
-	"car.wiper": {
-        "category": "music",
-        "sounds": [
-            {
-                "name": "sounds/music/car.wiper",
-                "load_on_low_memory": true
-            }
-        ]
-    }
+	"format_version": "1.16.0",
+	"sound_definitions": {
+		"car_door_open": {
+			"category": "neutral",
+			"sounds": ["sounds/car_door_open"]
+		},
+		"car_door_close": {
+			"category": "neutral",
+			"sounds": ["sounds/car_door_close"]
+		},
+		"car_wiper": {
+			"category": "neutral",
+			"sounds": ["sounds/car_wiper"]
+		},
+		"car_on": {
+			"category": "neutral",
+			"sounds": ["sounds/car_on"]
+		},
+		"car_singal": {
+			"category": "neutral",
+			"sounds": ["sounds/car_singal"]
+		},
+		"car_siren": {
+			"category": "neutral",
+			"sounds": ["sounds/car_siren"]
+		},
+		"car_move": {
+			"category": "neutral",
+			"sounds": ["sounds/car_move"]
+		},
+		"car_sub_spawn": {
+			"category": "neutral",
+			"sounds": ["sounds/car_sub_spawn"]
+		},
+		"car_disk_in": {
+			"category": "neutral",
+			"sounds": ["sounds/car_disk_in"]
+		},
+		"car_window_in": {
+			"category": "neutral",
+			"sounds": ["sounds/car_window_in"]
+		},
+		"car_window_out": {
+			"category": "neutral",
+			"sounds": ["sounds/car_window_out"]
+		},
+		"car_spawn": {
+			"category": "neutral",
+			"sounds": ["sounds/car_spawn"]
+		},
+		"car_at": {
+			"category": "neutral",
+			"sounds": ["sounds/car_at"]
+		},
+		"car_horn": {
+			"category": "neutral",
+			"sounds": ["sounds/car_horn"]
+		}
+	}
 }

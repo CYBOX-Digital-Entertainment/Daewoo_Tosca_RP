@@ -131,6 +131,21 @@
 				"speed4": "animation.tosca.speed4",
 				"tosca_controller": "controller.animation.tosca"
 			},
+			"sound_effects": {
+				"car_at": "car_at",
+				"car_disk_in": "car_disk_in",
+				"car_door_close": "car_door_close",
+				"car_door_open": "car_door_open",
+				"car_horn": "car_horn",
+				"car_on": "car_on",
+				"car_singal": "car_singal",
+				"car_siren": "car_siren",
+				"car_spawn": "car_spawn",
+				"car_sub_spawn": "car_sub_spawn",
+				"car_window_in": "car_window_in",
+				"car_window_out": "car_window_out",
+				"car_wiper": "car_wiper"
+			},
 			"scripts": {
 				"animate": [
 					{
