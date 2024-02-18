@@ -1,7 +1,7 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"daewoo:tosca": {
+			"cybox:dw_tosca": {
 							"volume": 3,
 							"pitch": [
 							1,
@@ -9,7 +9,7 @@
 							],
 						"events": {
 				"spawn": "car.ride",
-				"step": "car.drive"
+				"wiper": "car.wiper"
 							}
 			}
       }

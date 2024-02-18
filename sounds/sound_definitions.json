@@ -8,20 +8,11 @@
             }
         ]
     },
-	"car.drive": {
+	"car.wiper": {
         "category": "music",
         "sounds": [
             {
-                "name": "sounds/music/car_drive",
-                "load_on_low_memory": true
-            }
-        ]
-    },
-	    "car.ride": {
-        "category": "music",
-        "sounds": [
-            {
-                "name": "sounds/music/car_ride",
+                "name": "sounds/music/car.wiper",
                 "load_on_low_memory": true
             }
         ]
