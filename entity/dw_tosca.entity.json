@@ -176,46 +176,46 @@
 						"freight_add": "query.mark_variant == 1"
 					},
 					{
-						"13_loading": "query.mark_variant == 2 && query.anim_time <= 2.88"
+						"13_loading": "query.mark_variant == 2"
 					},
 					{
-						"cat_loading": "query.mark_variant == 3 && query.anim_time <= 2.88"
+						"cat_loading": "query.mark_variant == 3"
 					},
 					{
-						"blocks_loading": "query.mark_variant == 4 && query.anim_time <= 2.88"
+						"blocks_loading": "query.mark_variant == 4"
 					},
 					{
-						"chirp_loading": "query.mark_variant == 5 && query.anim_time <= 2.88"
+						"chirp_loading": "query.mark_variant == 5"
 					},
 					{
-						"far_loading": "query.mark_variant == 6 && query.anim_time <= 2.88"
+						"far_loading": "query.mark_variant == 6"
 					},
 					{
-						"mall_loading": "query.mark_variant == 7 && query.anim_time <= 2.88"
+						"mall_loading": "query.mark_variant == 7"
 					},
 					{
-						"mellohi_loading": "query.mark_variant == 8 && query.anim_time <= 2.88"
+						"mellohi_loading": "query.mark_variant == 8"
 					},
 					{
-						"stal_loading": "query.mark_variant == 9 && query.anim_time <= 2.88"
+						"stal_loading": "query.mark_variant == 9"
 					},
 					{
-						"strad_loading": "query.mark_variant == 10 && query.anim_time <= 2.88"
+						"strad_loading": "query.mark_variant == 10"
 					},
 					{
-						"ward_loading": "query.mark_variant == 11  && query.anim_time >= 2.88"
+						"ward_loading": "query.mark_variant == 11"
 					},
 					{
-						"11_loading": "query.mark_variant == 12 && query.anim_time <= 2.88"
+						"11_loading": "query.mark_variant == 12"
 					},
 					{
-						"otherside_loading": "query.mark_variant == 13 && query.anim_time <= 2.88"
+						"otherside_loading": "query.mark_variant == 13"
 					},
 					{
-						"5_loading": "query.mark_variant == 14 && query.anim_time <= 2.88"
+						"5_loading": "query.mark_variant == 14"
 					},
 					{
-						"pigstep_loading": "query.mark_variant == 15 && query.anim_time <= 2.88"
+						"pigstep_loading": "query.mark_variant == 15"
 					},
 					{
 						"song_on": "query.mark_variant == 16"

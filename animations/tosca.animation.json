@@ -3062,7 +3062,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3153,7 +3153,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3244,7 +3244,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3335,7 +3335,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3426,7 +3426,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3517,7 +3517,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3537,19 +3537,13 @@
 				"menu_on1": {
 					"position": {
 						"0.0": [0, 1, 0],
-						"2.0": {
-							"pre": [0, 1, 0],
-							"post": [0, -1, 0]
-						}
+						"2.0": {"pre": [0, 1, 0], "post": [0, -1, 0]}
 					}
 				},
 				"menu_on2": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"2.0": {
-							"pre": [0, 0, 0],
-							"post": [0, 3, 0]
-						}
+						"2.0": {"pre": [0, 0, 0], "post": [0, 3, 0]}
 					}
 				},
 				"menu_dic": {
@@ -3561,10 +3555,7 @@
 				"menu_cd": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"2.0": {
-							"pre": [0, 0, 0],
-							"post": [0, -1, 0]
-						}
+						"2.0": {"pre": [0, 0, 0], "post": [0, -1, 0]}
 					}
 				},
 				"d_mall": {
@@ -3646,7 +3637,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3737,7 +3728,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3828,7 +3819,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -3919,7 +3910,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -4016,7 +4007,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -4231,7 +4222,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -4322,7 +4313,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -4413,7 +4404,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "car_sub_spawn"
+					"effect": "car_disk_in"
 				}
 			}
 		},
@@ -5262,9 +5253,9 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
 			"sound_effects": {
-					"0.0": {
-						"effect": "car_window_in"
-					}
+				"0.0": {
+					"effect": "car_window_in"
+				}
 			},
 			"bones": {
 				"key": {
