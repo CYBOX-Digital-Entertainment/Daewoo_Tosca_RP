@@ -149,7 +149,7 @@
 			"scripts": {
 				"animate": [
 					{
-						"move": "query.modified_move_speed"
+						"move": "query.is_alive == 1"
 					},
 					{
 						"pedal": "query.modified_move_speed"

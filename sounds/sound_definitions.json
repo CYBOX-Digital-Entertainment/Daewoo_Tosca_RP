@@ -56,6 +56,10 @@
 		"car_horn": {
 			"category": "neutral",
 			"sounds": ["sounds/car_horn"]
+		},
+		"car_spray": {
+			"category": "neutral",
+			"sounds": ["sounds/car_spray"]
 		}
 	}
 }

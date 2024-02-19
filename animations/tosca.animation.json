@@ -57,6 +57,7 @@
 		},
 		"animation.tosca.move": {
 			"loop": true,
+			"anim_time_update": "query.modified_distance_moved * 0.025",
 			"animation_length": 0.2,
 			"bones": {
 				"A": {
