@@ -170,10 +170,10 @@
 						"siren": "query.is_chested == 1"
 					},
 					{
-						"freight_remove": "query.mark_variant == 0"
+						"freight_remove": "query.is_angry == 0"
 					},
 					{
-						"freight_add": "query.mark_variant == 1"
+						"freight_add": "query.is_angry == 1"
 					},
 					{
 						"13_loading": "query.mark_variant == 2"
