@@ -8,6 +8,7 @@
 				"tosca_police": "entity_emissive_alpha",
 				"tosca_gps": "entity_emissive_alpha",
 				"tosca_cd": "entity_alphatest",
+				"tosca_credit": "entity_emissive_alpha",
 				"tosca_polygon": "entity_alphablend",
 				"tosca_windows": "entity_alphablend",
 				"tosca_info": "entity_alphatest"
@@ -26,6 +27,7 @@
 				"tosca_police": "textures/entity/tosca/tosca_police",
 				"tosca_gps": "textures/entity/tosca/tosca_gps",
 				"tosca_cd": "textures/entity/tosca/tosca_cd",
+				"tosca_credit": "textures/entity/tosca/tosca_credit",
 				"tosca_polygon": "textures/entity/tosca/tosca_polygon",
 				"tosca_windows": "textures/entity/tosca/tosca_gb",
 				"layer1": "textures/entity/tosca/tosca_gb",
@@ -39,6 +41,7 @@
 				"tosca_police": "geometry.tosca_police",
 				"tosca_gps": "geometry.tosca_gps",
 				"tosca_cd": "geometry.tosca_cd",
+				"tosca_credit": "geometry.tosca_credit",
 				"tosca_polygon": "geometry.tosca_polygon",
 				"tosca_windows": "geometry.tosca_windows",
 				"layer1": "geometry.tosca_lf_wheel",
@@ -52,6 +55,7 @@
 				"controller.render.tosca_police",
 				"controller.render.tosca_gps",
 				"controller.render.tosca_cd",
+				"controller.render.tosca_credit",
 				"controller.render.tosca_polygon",
 				"controller.render.tosca_windows",
 				"controller.render.layer1",
@@ -129,22 +133,24 @@
 				"speed2": "animation.tosca.speed2",
 				"speed3": "animation.tosca.speed3",
 				"speed4": "animation.tosca.speed4",
+				"credit": "animation.tosca.credit",
 				"tosca_controller": "controller.animation.tosca"
 			},
 			"sound_effects": {
-				"car_at": "car_at",
-				"car_disk_in": "car_disk_in",
-				"car_door_close": "car_door_close",
-				"car_door_open": "car_door_open",
-				"car_horn": "car_horn",
-				"car_on": "car_on",
-				"car_singal": "car_singal",
-				"car_siren": "car_siren",
-				"car_spawn": "car_spawn",
-				"car_sub_spawn": "car_sub_spawn",
-				"car_window_in": "car_window_in",
-				"car_window_out": "car_window_out",
-				"car_wiper": "car_wiper"
+				"car_at": "dwt_car_at",
+				"car_disk_in": "dwt_car_disk_in",
+				"car_door_close": "dwt_car_door_close",
+				"car_door_open": "dwt_car_door_open",
+				"car_horn": "dwt_car_horn",
+				"car_on": "dwt_car_on",
+				"car_singal": "dwt_car_singal",
+				"car_siren": "dwt_car_siren",
+				"car_spawn": "dwt_car_spawn",
+				"car_sub_spawn": "dwt_car_sub_spawn",
+				"car_window_in": "dwt_ar_window_in",
+				"car_window_out": "dwt_car_window_out",
+				"car_wiper": "dwt_car_wiper",
+				"car_credit": "dwt_car_credit"
 			},
 			"scripts": {
 				"animate": [
@@ -225,6 +231,9 @@
 					},
 					{
 						"pigstep_on": "query.mark_variant == 18"
+					},
+					{
+						"credit": "query.mark_variant == 19"
 					},
 					{
 						"at_p": "query.is_saddled == 0 && query.is_stackable == 1"

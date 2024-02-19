@@ -8,7 +8,7 @@
 							1
 							],
 						"events": {
-				"spawn": "dw_tosca.spawn",
+				"spawn": "dwt_car_spawn",
 							}
 				  }  
       }
