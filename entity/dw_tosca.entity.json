@@ -122,7 +122,7 @@
 				"pigstep_on": "animation.tosca_gps.pigstep_on",
 				"at_p": "animation.tosca.at_p",
 				"at_r": "animation.tosca.at_r",
-				"at_n": "animation.tosca.at_n",
+				"neutral_on": "animation.tosca.at_n",
 				"at_d": "animation.tosca.at_d",
 				"speed0": "animation.tosca.speed0",
 				"speed1": "animation.tosca.speed1",
@@ -227,16 +227,16 @@
 						"pigstep_on": "query.mark_variant == 18"
 					},
 					{
-						"at_p": "query.can_climb == 0 && query.is_baby== 0 && query.is_tamed == 0 && query.is_moving == 1"
+						"at_p": "query.is_saddled == 0 && query.is_stackable == 1"
 					},
 					{
-						"at_r": "query.can_climb == 0 && query.is_baby== 0 && query.is_tamed == 0 && query.is_moving == 1"
+						"at_r": "query.is_saddled == 1 && query.is_stackable == 0"
 					},
 					{
-						"at_n": "query.is_charged == 1"
+						"neutral_on": "query.is_stackable == 0 && query.is_saddled == 0"
 					},
 					{
-						"at_d": "query.is_saddled == 1"
+						"at_d": "query.is_stackable == 1 && query.is_saddled == 1"
 					},
 					{
 						"speed0": "query.can_climb == 0 && query.is_baby== 0 && query.is_tamed == 0 && query.is_moving == 1"
