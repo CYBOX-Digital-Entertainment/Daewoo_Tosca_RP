@@ -3,3 +3,23 @@ pack.description=Add-on by CYBOX with 우리들의 마인크래프트 공간
 
 item.spawn_egg.entity.cybox:dw_tosca.name=GM대우 토스카 생성
 entity.cybox:dw_tosca.name=GM대우 토스카
+action.hint.exit.cybox:dw_tosca=
+ 
+cybox_a.display_name=신비한 알파벳 A
+cybox_c.display_name=신비한 알파벳 C
+cybox_o.display_name=신비한 알파벳 O
+cybox_s.display_name=신비한 알파벳 S
+cybox_t.display_name=신비한 알파벳 T
+dw_tosca_core.display_name=GM대우 토스카 코어
+dw_tosca_key.display_name=GM대우 토스카 차키
+tosca_paint_ddg.display_name=토스카 페인트 : 
+tosca_paint_gb.display_name=토스카 전용 도색 스프레이 : 진검정색
+tosca_paint_gw.display_name=토스카 전용 도색 스프레이 : 순백색
+tosca_paint_kr.display_name=토스카 전용 도색 스프레이 : 진한 빨강색
+tosca_paint_og.display_name=토스카 전용 도색 스프레이 : 올리브그레이
+tosca_paint_pb.display_name=토스카 전용 도색 스프레이 : 진파랑색
+tosca_paint_ps.display_name=토스카 전용 도색 스프레이 : 은색
+tosca_paint_sdg.display_name=토스카 전용 도색 스프레이 : 모래 바람색
+tosca_paint_wp.display_name=토스카 전용 도색 스프레이 : 진주색
+tosca_police_kit.display_name=토스카 전용 차량 커스텀 킷 : 경찰차
+tosca_taxi_kit.display_name=토스카 전용 차량 커스텀 킷 : 택시

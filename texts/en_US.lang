@@ -3,3 +3,22 @@ pack.description=Add-on by CYBOX with Our Minectaft Space
 
 item.spawn_egg.entity.cybox:dw_tosca.name=Spawn Daewoo Tosca
 entity.cybox:dw_tosca.name=Daewoo Tosca
+
+cybox_a.display_name=Mysterious Artifact A
+cybox_c.display_name=Mysterious Artifact C
+cybox_o.display_name=Mysterious Artifact O
+cybox_s.display_name=Mysterious Artifact S
+cybox_t.display_name=Mysterious Artifact T
+dw_tosca_core.display_name=Core of Daewoo Tosca
+dw_tosca_key.display_name=Car Key for Daewoo Tosca
+tosca_paint_ddg.display_name=토스카 페인트 : 
+tosca_paint_gb.display_name=Spray Paint for Daewoo Tosca : GRANADA BLACK
+tosca_paint_gw.display_name=Spray Paint for Daewoo Tosca : GALAXY WHITE
+tosca_paint_kr.display_name=Spray Paint for Daewoo Tosca : KINDINSKY RED
+tosca_paint_og.display_name=Spray Paint for Daewoo Tosca : OLIVE GRAY
+tosca_paint_pb.display_name=Spray Paint for Daewoo Tosca : POSEIDON BLUE
+tosca_paint_ps.display_name=Spray Paint for Daewoo Tosca : POLY SILVER
+tosca_paint_sdg.display_name=Spray Paint for Daewoo Tosca : SAND DRIFT GREY
+tosca_paint_wp.display_name=Spray Paint for Daewoo Tosca : WHITE PEARL
+tosca_police_kit.display_name=Custom Kit for Daewoo Tosca : Police car
+tosca_taxi_kit.display_name=Custom Kit for Daewoo Tosca : Taxi
