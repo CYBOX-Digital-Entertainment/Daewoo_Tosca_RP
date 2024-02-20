@@ -3,8 +3,8 @@
 	"texture_data": {
 		"tosca_gb":{"textures":"textures/items/tosca_gb.png"},
 		"dw_tosca_key":{"textures":"textures/items/dw_tosca_key.png"},
-		"dw_tosca_horn":{"textures":"textures/items/dw_tosca_horn.png"},
 		"dw_tosca_core":{"textures":"textures/items/dw_tosca_horn.png"},
+		"dw_tosca_horn":{"textures":"textures/items/dw_tosca_horn.png"},
 		"tosca_paint_ddg":{"textures":"textures/items/tosca_paint_ddg.png"},
 		"tosca_paint_gb":{"textures":"textures/items/tosca_paint_gb.png"},
 		"tosca_paint_gw":{"textures":"textures/items/tosca_paint_gw.png"},

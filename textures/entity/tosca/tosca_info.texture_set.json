@@ -1,0 +1,8 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:texture_set": {
+    "color": "tosca_info",
+    "metalness_emissive_roughness": "tosca_info_mer",
+	"normal": "tosca_info_normal"
+	}
+}
