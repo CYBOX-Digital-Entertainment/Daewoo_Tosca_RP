@@ -4,11 +4,11 @@
 		"description": {
 			"identifier": "cybox:dw_tosca",
 			"materials": {
-				"default": "entity_emissive_alpha",
-				"tosca_police": "entity_emissive_alpha",
-				"tosca_gps": "entity_emissive_alpha",
+				"default": "entity_emissive_alpha_one_sided",
+				"tosca_police": "entity_emissive_alpha_one_sided",
+				"tosca_gps": "entity_emissive_alpha_one_sided",
 				"tosca_cd": "entity_alphatest",
-				"tosca_credit": "entity_emissive_alpha",
+				"tosca_credit": "entity_emissive_alpha_one_sided",
 				"tosca_polygon": "entity_alphablend",
 				"tosca_windows": "entity_alphablend",
 				"tosca_info": "entity_alphatest"
