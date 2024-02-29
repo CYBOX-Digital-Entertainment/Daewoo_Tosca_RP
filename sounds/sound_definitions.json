@@ -2,64 +2,184 @@
 	"format_version": "1.16.0",
 	"sound_definitions": {
 		"dwt_car_door_open": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_door_open"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_door_open",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_door_close": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_door_close"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_door_close",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_wiper": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_wiper"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_wiper",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_on": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_on"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_on",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_singal": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_singal"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_singal",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_siren": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_siren"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_siren",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_move": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_move"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_move",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_sub_spawn": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_sub_spawn"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_sub_spawn",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_disk_in": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_disk_in"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_disk_in",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_window_in": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_window_in"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_window_in",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_window_out": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_window_out"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_window_out",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_spawn": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_spawn"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_spawn",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_at": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_at"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_at",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_horn": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_horn"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_horn",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"dwt_car_spray": {
-			"category": "neutral",
-			"sounds": ["sounds/dwt_car_spray"]
+			"__use_legacy_max_distance" : "true",
+			"category" : "ui",
+			"sounds" : [
+			   {
+				  "load_on_low_memory" : true,
+				  "name" : "sounds/dwt_car_spray",
+				  "stream" : true,
+				  "volume" : 0.50
+			   }
+			]
 		},
 		"record.11" : {
 			"__use_legacy_max_distance" : "true",

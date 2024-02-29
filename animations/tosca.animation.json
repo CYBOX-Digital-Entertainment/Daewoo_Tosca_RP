@@ -45,30 +45,30 @@
 		"animation.tosca.move": {
 			"loop": true,
 			"anim_time_update": "query.modified_distance_moved * 0.025",
-			"animation_length": 0.2,
+			"animation_length": 0.245,
 			"bones": {
 				"A": {
 					"rotation": {
 						"0.0": [0, 0, 0],
-						"0.2": [364.9, 0, 0]
+						"0.245": [360, 0, 0]
 					}
 				},
 				"B": {
 					"rotation": {
 						"0.0": [0, 0, 0],
-						"0.2": [364.9, 0, 0]
+						"0.245": [360, 0, 0]
 					}
 				},
 				"C": {
 					"rotation": {
 						"0.0": [0, 0, 0],
-						"0.2": [364.9, 0, 0]
+						"0.245": [360, 0, 0]
 					}
 				},
 				"D": {
 					"rotation": {
 						"0.0": [0, 0, 0],
-						"0.2": [364.9, 0, 0]
+						"0.245": [360, 0, 0]
 					}
 				}
 			},
@@ -1894,7 +1894,7 @@
 					"position": [0, 0, -1]
 				},
 				"do_op": {
-					"position": [0, 0, 2]
+					"position": [0, 0, 2.00391]
 				},
 				"leftdb2": {
 					"position": [0, 0, 1]
@@ -2273,7 +2273,7 @@
 			}
 		},
 		"animation.tosca.wiper": {
-			"loop": true,
+			"loop": "hold_on_last_frame",
 			"animation_length": 1.2667,
 			"bones": {
 				"wire2_stick": {
@@ -2366,6 +2366,7 @@
 			}
 		},
 		"animation.tosca_gps.song_loading": {
+			"loop": "hold_on_last_frame",
 			"animation_length": 2.88333,
 			"bones": {
 				"menu_off": {
@@ -2374,10 +2375,7 @@
 				"menu_on": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"2.0": {
-							"pre": [0, 0, 0],
-							"post": [0, 0, 0]
-						}
+						"2.0": [0, 0, 0]
 					}
 				},
 				"menu_on1": {
@@ -2401,10 +2399,7 @@
 				"menu_dic": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"2.0": {
-							"pre": [0, 0, 0],
-							"post": [0, 0, 0]
-						}
+						"2.0": [0, 0, 0]
 					}
 				},
 				"menu_cd": {
@@ -2547,7 +2542,7 @@
 		},
 		"animation.tosca_gps.13_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"d_13": {
 					"rotation": {
@@ -2632,7 +2627,7 @@
 		},
 		"animation.tosca_gps.cat_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -2722,8 +2717,8 @@
 			}
 		},
 		"animation.tosca_gps.blocks_loading": {
-			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"loop": true,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -2814,7 +2809,7 @@
 		},
 		"animation.tosca_gps.chirp_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -2905,7 +2900,7 @@
 		},
 		"animation.tosca_gps.far_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -2996,7 +2991,7 @@
 		},
 		"animation.tosca_gps.mall_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3087,7 +3082,7 @@
 		},
 		"animation.tosca_gps.mellohi_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3216,7 +3211,7 @@
 		},
 		"animation.tosca_gps.stal_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3307,7 +3302,7 @@
 		},
 		"animation.tosca_gps.strad_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3398,7 +3393,7 @@
 		},
 		"animation.tosca_gps.ward_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3489,7 +3484,7 @@
 		},
 		"animation.tosca_gps.11_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3586,7 +3581,7 @@
 		},
 		"animation.tosca_gps.otherside_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3677,7 +3672,7 @@
 		},
 		"animation.tosca_gps.5_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3768,7 +3763,7 @@
 		},
 		"animation.tosca_gps.pigstep_loading": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 2.88333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3859,7 +3854,7 @@
 		},
 		"animation.tosca_gps.song_on": {
 			"loop": true,
-			"animation_length": 2.78333,
+			"animation_length": 3,
 			"bones": {
 				"menu_off": {
 					"position": [0, 1, 0]
@@ -3886,109 +3881,73 @@
 				"al284": {
 					"position": {
 						"0.4": [0, 0, 0],
-						"0.4167": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"0.4167": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al285": {
 					"position": {
 						"0.5667": [0, 0, 0],
-						"0.5833": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"0.5833": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al286": {
 					"position": {
 						"0.7667": [0, 0, 0],
-						"0.7833": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"0.7833": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al287": {
 					"position": {
 						"0.9667": [0, 0, 0],
-						"0.9833": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"0.9833": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al288": {
 					"position": {
 						"1.1": [0, 0, 0],
-						"1.1167": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"1.1167": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al289": {
 					"position": {
 						"1.25": [0, 0, 0],
-						"1.2667": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"1.2667": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al290": {
 					"position": {
 						"1.45": [0, 0, 0],
-						"1.4667": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"1.4667": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al291": {
 					"position": {
 						"1.6333": [0, 0, 0],
-						"1.65": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"1.65": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al292": {
 					"position": {
 						"1.8": [0, 0, 0],
-						"1.8167": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"1.8167": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al293": {
 					"position": {
 						"1.9833": [0, 0, 0],
-						"2.0": {
-							"pre": [0, 0, 0],
-							"post": [0, 2, 0]
-						}
+						"2.0": {"pre": [0, 0, 0], "post": [0, 2, 0]}
 					}
 				},
 				"al294": {
 					"position": {
 						"0.0": [0, 1, 0],
-						"0.4167": {
-							"pre": [0, 1, 0],
-							"post": [0, 0, 0]
-						}
+						"0.4167": {"pre": [0, 1, 0], "post": [0, 0, 0]}
 					}
 				},
 				"al295": {
 					"position": {
 						"0.0": [0, 1, 0],
-						"0.6": {
-							"pre": [0, 1, 0],
-							"post": [0, 0, 0]
-						}
+						"0.6": {"pre": [0, 1, 0], "post": [0, 0, 0]}
 					}
 				},
 				"al296": {
@@ -5377,70 +5336,124 @@
 				"credit1": {
 					"position": {
 						"0.0": [0, 0, 1],
-						"2.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"2.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit2": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"2.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"4.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"2.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"4.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit3": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"4.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"6.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"4.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"6.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit5": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"6.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"8.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"6.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"8.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit6": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"8.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"10.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"8.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"10.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit7": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"10.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"12.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"10.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"12.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit8": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"12.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"14.0": {"pre": [0, 0, 1], "post": [0, 0, 0]}
+						"12.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"14.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
 					}
 				},
 				"credit9": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"14.0": {"pre": [0, 0, 0], "post": [0, 0, 1]}
+						"14.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						}
 					}
 				},
 				"credit10": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"16.0": {"pre": [0, 0, 0], "post": [0, 0, 1]},
-						"18.0": {"pre": [0, 0, 1], "post": [0, 0, 0]},
-						"20.0": {"pre": [0, 0, 0], "post": [0, 0, 0]}
+						"16.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						},
+						"18.0": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						},
+						"20.0": [0, 0, 0]
 					}
 				},
 				"credit11": {
 					"position": {
 						"0.0": [0, 0, 0],
-						"18.0": {"pre": [0, 0, 0], "post": [0, 0, 1]}
+						"18.0": {
+							"pre": [0, 0, 0],
+							"post": [0, 0, 1]
+						}
 					}
+				},
+				"credit": {
+					"position": [0, 0, 1]
 				}
 			},
 			"sound_effects": {

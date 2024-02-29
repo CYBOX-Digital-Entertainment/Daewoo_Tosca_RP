@@ -145,9 +145,8 @@
 				"car_on": "dwt_car_on",
 				"car_singal": "dwt_car_singal",
 				"car_siren": "dwt_car_siren",
-				"car_spawn": "dwt_car_spawn",
 				"car_sub_spawn": "dwt_car_sub_spawn",
-				"car_window_in": "dwt_ar_window_in",
+				"car_window_in": "dwt_car_window_in",
 				"car_window_out": "dwt_car_window_out",
 				"car_wiper": "dwt_car_wiper",
 				"car_credit": "dwt_car_credit"

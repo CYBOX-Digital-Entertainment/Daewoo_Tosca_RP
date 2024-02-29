@@ -1,16 +1,20 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"cybox:dw_tosca": {
+	   		"cybox:dw_tosca": {
+				"events": {
+						"spawn": {
+							"sound": "dwt_car_spawn",
+							"volume": 1,
+							"pitch": 1
+						},
+						"step": {
+							"sound": "dwt_car_move",
 							"volume": 3,
-							"pitch": [
-							1,
-							1
-							],
-						"events": {
-				"spawn": "dwt_car_spawn",
-							}
-				  }  
+							"pitch": 1
+						}
+					}
+				}
       }
-   }
+}
 }
