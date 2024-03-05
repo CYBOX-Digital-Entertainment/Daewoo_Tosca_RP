@@ -3,7 +3,6 @@ pack.description=Add-on by CYBOX with 우리들의 마인크래프트 공간
 
 item.spawn_egg.entity.cybox:dw_tosca.name=GM대우 토스카 생성
 entity.cybox:dw_tosca.name=GM대우 토스카
-action.hint.exit.cybox:dw_tosca= 
 
 cybox_a.display_name=신비한 알파벳 A
 cybox_c.display_name=신비한 알파벳 C
